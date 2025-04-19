@@ -45,3 +45,15 @@ This block applies clustering techniques to identify wage patterns among occupat
 - Save clustering results and outlier analyses in `/output/figures` and `/output/logs/`
 
 ---
+
+**Block 3: Modeling and Wage Prediction**
+Builds regression models to predict 2024 wages based on occupation attributes and historical wage patterns.
+
+**Key actions:**
+- Create a custom wage index combining TEER and Broad Category ranks.
+- Train simple linear regression models (TEER + BOC Rank) to predict wages.
+- Develop Random Forest and Gradient Boosting models using TEER, Broad Category, Province, and embedded NOC Titles.
+- Train and evaluate embedding-only models using sentence embeddings of occupation titles.
+- Model wage growth stability by predicting 2024 wages from 2016 and 2020 data.
+- Visualize model performance (predicted vs actual wages).
+- Save model evaluation metrics and results to `/output/logs/` and `/output/figures/`
