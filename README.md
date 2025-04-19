@@ -1,4 +1,5 @@
 ![Repo Size](https://img.shields.io/github/repo-size/nickshlepov/WageCAN_Project?color=lightblue&style=flat-square)
+![License: Unlicensed](https://img.shields.io/badge/License-Unlicensed-lightgrey.svg)
 
 # WageCAN_Project
 Data-driven insights into wage disparities and economic patterns in Canada (2016–2024)
