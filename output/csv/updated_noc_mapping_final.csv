@@ -1,0 +1,501 @@
+NOC_2016,NOC_Title_2016,Change_Type,NOC_2021,NOC_Title_2021
+0011,Legislators,"VC1 - Code Change, VC2 - Name Change",10,legislators
+0012,Senior government managers and officials,"VC1 - Code Change, VC2 - Name Change",11,senior government managers and officials
+0013,"Senior managers - financial, communications and other business services","VC1 - Code Change, VC2 - Name Change",12,"senior managers - financial, communications and other business services"
+0014,"Senior managers - health, education, social and community services and membership organizations","VC1 - Code Change, VC2 - Name Change",13,"senior managers - health, education, social and community services and membership organizations"
+0015,"Senior managers - trade, broadcasting and other services, n.e.c.","VC1 - Code Change, VC2 - Name Change",14,"senior managers - trade, broadcasting and other services"
+0016,"Senior managers - construction, transportation, production and utilities","VC1 - Code Change, VC2 - Name Change",15,"senior managers - construction, transportation, production and utilities"
+0111,Financial managers,"VC1 - Code Change, VC2 - Name Change",10010,financial managers
+0113,Purchasing managers,"VC1 - Code Change, VC2 - Name Change",10012,purchasing managers
+0114,Other administrative services managers,"VC1 - Code Change, VC2 - Name Change",10019,other administrative services managers
+0121,"Insurance, real estate and financial brokerage managers","VC1 - Code Change, VC2 - Name Change",10020,"insurance, real estate and financial brokerage managers"
+0122,"Banking, credit and other investment managers","VC1 - Code Change, VC2 - Name Change",10021,"banking, credit and other investment managers"
+0124,"Advertising, marketing and public relations managers","VC1 - Code Change, VC2 - Name Change",10022,"advertising, marketing and public relations managers"
+0125,Other business services managers,"VC1 - Code Change, VC2 - Name Change",10029,other business services managers
+0131,Telecommunication carriers managers,"VC1 - Code Change, VC2 - Name Change",10030,telecommunication carriers managers
+0132,Postal and courier services managers,"VC1 - Code Change, VC2 - Name Change",70021,postal and courier services managers
+0211,Engineering managers,"VC1 - Code Change, VC2 - Name Change",20010,engineering managers
+0212,Architecture and science managers,"VC1 - Code Change, VC2 - Name Change",20011,architecture and science managers
+0213,Computer and information systems managers,"VC1 - Code Change, VC2 - Name Change",20012,computer and information systems managers
+0311,Managers in health care,"VC1 - Code Change, VC2 - Name Change",30010,managers in health care
+0411,Government managers - health and social policy development and program administration,"VC1 - Code Change, VC2 - Name Change",40010,government managers - health and social policy development and program administration
+0412,"Government managers - economic analysis, policy development and program administration","VC1 - Code Change, VC2 - Name Change",40011,"government managers - economic analysis, policy development and program administration"
+0413,Government managers - education policy development and program administration,"VC1 - Code Change, VC2 - Name Change",40012,government managers - education policy development and program administration
+0414,Other managers in public administration,"VC1 - Code Change, VC2 - Name Change",40019,other managers in public administration
+0421,Administrators - post-secondary education and vocational training,"VC1 - Code Change, VC2 - Name Change",40020,administrators - post-secondary education and vocational training
+0422,School principals and administrators of elementary and secondary education,"VC1 - Code Change, VC2 - Name Change",40021,school principals and administrators of elementary and secondary education
+0423,"Managers in social, community and correctional services","VC1 - Code Change, VC2 - Name Change",40030,"managers in social, community and correctional services"
+0432,Fire chiefs and senior firefighting officers,"VC1 - Code Change, VC2 - Name Change",40041,fire chiefs and senior firefighting officers
+0511,"Library, archive, museum and art gallery managers","VC1 - Code Change, VC2 - Name Change",50010,"library, archive, museum and art gallery managers"
+0512,"Managers - publishing, motion pictures, broadcasting and performing arts","VC1 - Code Change, VC2 - Name Change",50011,"managers - publishing, motion pictures, broadcasting and performing arts"
+0513,"Recreation, sports and fitness program and service directors","VC1 - Code Change, VC2 - Name Change",50012,"recreation, sports and fitness program and service directors"
+0601,Corporate sales managers,"VC1 - Code Change, VC2 - Name Change",60010,corporate sales managers
+0621,Retail and wholesale trade managers,"VC1 - Code Change, VC2 - Name Change",60020,retail and wholesale trade managers
+0631,Restaurant and food service managers,"VC1 - Code Change, VC2 - Name Change",60030,restaurant and food service managers
+0632,Accommodation service managers,"VC1 - Code Change, VC2 - Name Change",60031,accommodation service managers
+0651,"Managers in customer and personal services, n.e.c.","VC1 - Code Change, VC2 - Name Change",60040,managers in customer and personal services
+0711,Construction managers,"VC1 - Code Change, VC2 - Name Change",70010,construction managers
+0712,Home building and renovation managers,"VC1 - Code Change, VC2 - Name Change",70011,home building and renovation managers
+0714,Facility operation and maintenance managers,"VC1 - Code Change, VC2 - Name Change",70012,facility operation and maintenance managers
+0731,Managers in transportation,"VC1 - Code Change, VC2 - Name Change",70020,managers in transportation
+0811,Managers in natural resources production and fishing,"VC1 - Code Change, VC2 - Name Change",80010,managers in natural resources production and fishing
+0821,Managers in agriculture,"VC1 - Code Change, VC2 - Name Change",80020,managers in agriculture
+0822,Managers in horticulture,"VC1 - Code Change, VC2 - Name Change",80021,managers in horticulture
+0823,Managers in aquaculture,"VC1 - Code Change, VC2 - Name Change",80022,managers in aquaculture
+0911,Manufacturing managers,"VC1 - Code Change, VC2 - Name Change",90010,manufacturing managers
+0912,Utilities managers,"VC1 - Code Change, VC2 - Name Change",90011,utilities managers
+1111,Financial auditors and accountants,"VC1 - Code Change, VC2 - Name Change",11100,financial auditors and accountants
+1112,Financial and investment analysts,"VC1 - Code Change, VC2 - Name Change",11101,financial and investment analysts
+1113,"Securities agents, investment dealers and brokers","VC1 - Code Change, VC2 - Name Change",11103,"securities agents, investment dealers and brokers"
+1121,Human resources professionals,"VC1 - Code Change, VC2 - Name Change",11200,human resources professionals
+1122,Professional occupations in business management consulting,"VC1 - Code Change, VC2 - Name Change",11201,professional occupations in business management consulting
+1211,"Supervisors, general office and administrative support workers","VC1 - Code Change, VC2 - Name Change",12010,"supervisors, general office and administrative support workers"
+1212,"Supervisors, finance and insurance office workers","VC1 - Code Change, VC2 - Name Change",12011,"supervisors, finance and insurance office workers"
+1213,"Supervisors, library, correspondence and related information workers","VC1 - Code Change, VC2 - Name Change",12012,"supervisors, library, correspondence and related information workers"
+1214,"Supervisors, mail and message distribution occupations","VC1 - Code Change, VC2 - Name Change",72025,"supervisors, mail and message distribution occupations"
+1221,Administrative officers,"VC1 - Code Change, VC2 - Name Change",13100,administrative officers
+1222,Executive assistants,"VC1 - Code Change, VC2 - Name Change",12100,executive assistants
+1223,Human resources and recruitment officers,"VC1 - Code Change, VC2 - Name Change",12101,human resources and recruitment officers
+1224,Property administrators,"VC1 - Code Change, VC2 - Name Change",13101,property administrators
+1225,Purchasing agents and officers,"VC1 - Code Change, VC2 - Name Change",12102,procurement and purchasing agents and officers
+1226,Conference and event planners,"VC1 - Code Change, VC2 - Name Change",12103,conference and event planners
+1228,"Employment insurance, immigration, border services and revenue officers","RC4.1 - Breakdown, VC1 - Code Change, VC2 - Name Change",12104,employment insurance and revenue officers
+1241,Administrative assistants,"VC1 - Code Change, VC2 - Name Change",13110,administrative assistants
+1242,Legal administrative assistants,"VC1 - Code Change, VC2 - Name Change",13111,legal administrative assistants
+1243,Medical administrative assistants,"VC1 - Code Change, VC2 - Name Change",13112,medical administrative assistants
+1251,"Court reporters, medical transcriptionists and related occupations","VC1 - Code Change, VC2 - Name Change",12110,"court reporters, medical transcriptionists and related occupations"
+1252,Health information management occupations,"VC1 - Code Change, VC2 - Name Change",12111,health information management occupations
+1254,Statistical officers and related research support occupations,"VC1 - Code Change, VC2 - Name Change",12113,statistical officers and related research support occupations
+1311,Accounting technicians and bookkeepers,"VC1 - Code Change, VC2 - Name Change",12200,accounting technicians and bookkeepers
+1312,Insurance adjusters and claims examiners,"VC1 - Code Change, VC2 - Name Change",12201,insurance adjusters and claims examiners
+1313,Insurance underwriters,"VC1 - Code Change, VC2 - Name Change",12202,insurance underwriters
+1314,"Assessors, valuators and appraisers","VC1 - Code Change, VC2 - Name Change",12203,"assessors, business valuators and appraisers"
+1315,"Customs, ship and other brokers","VC1 - Code Change, VC2 - Name Change",13200,"customs, ship and other brokers"
+1411,General office support workers,"VC1 - Code Change, VC2 - Name Change",14100,general office support workers
+1414,Receptionists,"VC1 - Code Change, VC2 - Name Change",14101,receptionists
+1415,Personnel clerks,"VC1 - Code Change, VC2 - Name Change",14102,personnel clerks
+1416,Court clerks,"RC3.1 - Merger, VC1 - Code Change, VC2 - Name Change",14103,court clerks and related court services occupations
+1422,Data entry clerks,"VC1 - Code Change, VC2 - Name Change",14111,data entry clerks
+1423,Desktop publishing operators and related occupations,"VC1 - Code Change, VC2 - Name Change",14112,desktop publishing operators and related occupations
+1431,Accounting and related clerks,"VC1 - Code Change, VC2 - Name Change",14200,accounting and related clerks
+1432,Payroll administrators,"VC1 - Code Change, VC2 - Name Change",13102,payroll administrators
+1434,"Banking, insurance and other financial clerks","VC1 - Code Change, VC2 - Name Change",14201,"banking, insurance and other financial clerks"
+1435,Collectors,"VC1 - Code Change, VC2 - Name Change",14202,collection clerks
+1451,Library assistants and clerks,"VC1 - Code Change, VC2 - Name Change",14300,library assistants and clerks
+1452,"Correspondence, publication and regulatory clerks","VC1 - Code Change, VC2 - Name Change",14301,"correspondence, publication and regulatory clerks"
+1454,Survey interviewers and statistical clerks,"VC1 - Code Change, VC2 - Name Change",14110,survey interviewers and statistical clerks
+1512,Letter carriers,"VC1 - Code Change, VC2 - Name Change",74101,letter carriers
+1521,Shippers and receivers,"VC1 - Code Change, VC2 - Name Change",14400,shippers and receivers
+1522,Storekeepers and partspersons,"VC1 - Code Change, VC2 - Name Change",14401,storekeepers and partspersons
+1523,Production logistics co-ordinators,"RC4.1 - Breakdown, VC1 - Code Change, VC2 - Name Change",13201,production and transportation logistics coordinators
+1524,Purchasing and inventory control workers,"VC1 - Code Change, VC2 - Name Change",14403,purchasing and inventory control workers
+1526,Transportation route and crew schedulers,"VC1 - Code Change, VC2 - Name Change",14405,transportation route and crew schedulers
+2111,Physicists and astronomers,"VC1 - Code Change, VC2 - Name Change",21100,physicists and astronomers
+2112,Chemists,"VC1 - Code Change, VC2 - Name Change",21101,chemists
+2113,Geoscientists and oceanographers,"VC1 - Code Change, VC2 - Name Change",21102,geoscientists and oceanographers
+2114,Meteorologists and climatologists,"VC1 - Code Change, VC2 - Name Change",21103,meteorologists and climatologists
+2115,Other professional occupations in physical sciences,"VC1 - Code Change, VC2 - Name Change",21109,other professional occupations in physical sciences
+2121,Biologists and related scientists,"VC1 - Code Change, VC2 - Name Change",21110,biologists and related scientists
+2122,Forestry professionals,"VC1 - Code Change, VC2 - Name Change",21111,forestry professionals
+2123,"Agricultural representatives, consultants and specialists","VC1 - Code Change, VC2 - Name Change",21112,"agricultural representatives, consultants and specialists"
+2131,Civil engineers,"VC1 - Code Change, VC2 - Name Change",21300,civil engineers
+2132,Mechanical engineers,"VC1 - Code Change, VC2 - Name Change",21301,mechanical engineers
+2133,Electrical and electronics engineers,"VC1 - Code Change, VC2 - Name Change",21310,electrical and electronics engineers
+2134,Chemical engineers,"VC1 - Code Change, VC2 - Name Change",21320,chemical engineers
+2141,Industrial and manufacturing engineers,"VC1 - Code Change, VC2 - Name Change",21321,industrial and manufacturing engineers
+2142,Metallurgical and materials engineers,"VC1 - Code Change, VC2 - Name Change",21322,metallurgical and materials engineers
+2143,Mining engineers,"VC1 - Code Change, VC2 - Name Change",21330,mining engineers
+2144,Geological engineers,"VC1 - Code Change, VC2 - Name Change",21331,geological engineers
+2145,Petroleum engineers,"VC1 - Code Change, VC2 - Name Change",21332,petroleum engineers
+2146,Aerospace engineers,"VC1 - Code Change, VC2 - Name Change",21390,aerospace engineers
+2147,Computer engineers (except software engineers and designers),"VC1 - Code Change, VC2 - Name Change",21311,computer engineers (except software engineers and designers)
+2148,"Other professional engineers, n.e.c.","VC1 - Code Change, VC2 - Name Change",21399,other professional engineers
+2151,Architects,"VC1 - Code Change, VC2 - Name Change",21200,architects
+2152,Landscape architects,"VC1 - Code Change, VC2 - Name Change",21201,landscape architects
+2153,Urban and land use planners,"VC1 - Code Change, VC2 - Name Change",21202,urban and land use planners
+2154,Land surveyors,"VC1 - Code Change, VC2 - Name Change",21203,land surveyors
+2161,"Mathematicians, statisticians and actuaries","VC1 - Code Change, VC2 - Name Change",21210,"mathematicians, statisticians and actuaries"
+2174,Computer programmers and interactive media developers,"RC4.1 - Breakdown, VC1 - Code Change, VC2 - Name Change",21230,computer systems developers and programmers
+2175,Web designers and developers,"RC4.1 - Breakdown, VC1 - Code Change, VC2 - Name Change",21233,web designers
+2211,Chemical technologists and technicians,"VC1 - Code Change, VC2 - Name Change",22100,chemical technologists and technicians
+2212,Geological and mineral technologists and technicians,"VC1 - Code Change, VC2 - Name Change",22101,geological and mineral technologists and technicians
+2221,Biological technologists and technicians,"VC1 - Code Change, VC2 - Name Change",22110,biological technologists and technicians
+2222,Agricultural and fish products inspectors,"VC1 - Code Change, VC2 - Name Change",22111,agricultural and fish products inspectors
+2223,Forestry technologists and technicians,"VC1 - Code Change, VC2 - Name Change",22112,forestry technologists and technicians
+2224,Conservation and fishery officers,"VC1 - Code Change, VC2 - Name Change",22113,conservation and fishery officers
+2225,Landscape and horticulture technicians and specialists,"VC1 - Code Change, VC2 - Name Change",22114,landscape and horticulture technicians and specialists
+2231,Civil engineering technologists and technicians,"VC1 - Code Change, VC2 - Name Change",22300,civil engineering technologists and technicians
+2232,Mechanical engineering technologists and technicians,"VC1 - Code Change, VC2 - Name Change",22301,mechanical engineering technologists and technicians
+2233,Industrial engineering and manufacturing technologists and technicians,"VC1 - Code Change, VC2 - Name Change",22302,industrial engineering and manufacturing technologists and technicians
+2234,Construction estimators,"VC1 - Code Change, VC2 - Name Change",22303,construction estimators
+2241,Electrical and electronics engineering technologists and technicians,"VC1 - Code Change, VC2 - Name Change",22310,electrical and electronics engineering technologists and technicians
+2242,Electronic service technicians (household and business equipment),"VC1 - Code Change, VC2 - Name Change",22311,electronic service technicians (household and business equipment)
+2243,Industrial instrument technicians and mechanics,"VC1 - Code Change, VC2 - Name Change",22312,industrial instrument technicians and mechanics
+2244,"Aircraft instrument, electrical and avionics mechanics, technicians and inspectors","VC1 - Code Change, VC2 - Name Change",22313,"aircraft instrument, electrical and avionics mechanics, technicians and inspectors"
+2251,Architectural technologists and technicians,"VC1 - Code Change, VC2 - Name Change",22210,architectural technologists and technicians
+2252,Industrial designers,"VC1 - Code Change, VC2 - Name Change",22211,industrial designers
+2253,Drafting technologists and technicians,"VC1 - Code Change, VC2 - Name Change",22212,drafting technologists and technicians
+2254,Land survey technologists and technicians,"VC1 - Code Change, VC2 - Name Change",22213,land survey technologists and technicians
+2255,Technical occupations in geomatics and meteorology,"VC1 - Code Change, VC2 - Name Change",22214,technical occupations in geomatics and meteorology
+2261,Non-destructive testers and inspection technicians,"VC1 - Code Change, VC2 - Name Change",22230,non-destructive testers and inspectors
+2262,Engineering inspectors and regulatory officers,"VC1 - Code Change, VC2 - Name Change",22231,engineering inspectors and regulatory officers
+2263,Inspectors in public and environmental health and occupational health and safety,"RC4.1 - Breakdown, VC1 - Code Change, VC2 - Name Change",21120,public and environmental health and safety professionals
+2264,Construction inspectors,"VC1 - Code Change, VC2 - Name Change",22233,construction inspectors
+2271,"Air pilots, flight engineers and flying instructors","VC1 - Code Change, VC2 - Name Change",72600,"air pilots, flight engineers and flying instructors"
+2272,Air traffic controllers and related occupations,"VC1 - Code Change, VC2 - Name Change",72601,air traffic controllers and related occupations
+2273,"Deck officers, water transport","VC1 - Code Change, VC2 - Name Change",72602,"deck officers, water transport"
+2274,"Engineer officers, water transport","VC1 - Code Change, VC2 - Name Change",72603,"engineer officers, water transport"
+2275,Railway traffic controllers and marine traffic regulators,"VC1 - Code Change, VC2 - Name Change",72604,railway traffic controllers and marine traffic regulators
+2281,Computer network technicians,"VC1 - Code Change, VC2 - Name Change",22220,computer network and web technicians
+2282,User support technicians,"VC1 - Code Change, VC2 - Name Change",22221,user support technicians
+2283,Information systems testing technicians,"VC1 - Code Change, VC2 - Name Change",22222,information systems testing technicians
+3011,Nursing co-ordinators and supervisors,"VC1 - Code Change, VC2 - Name Change",31300,nursing coordinators and supervisors
+3012,Registered nurses and registered psychiatric nurses,"VC1 - Code Change, VC2 - Name Change",31301,registered nurses and registered psychiatric nurses
+3111,Specialist physicians,"RC4.1 - Breakdown, VC1 - Code Change, VC2 - Name Change",31100,specialists in clinical and laboratory medicine
+3112,General practitioners and family physicians,"VC1 - Code Change, VC2 - Name Change",31102,general practitioners and family physicians
+3113,Dentists,"VC1 - Code Change, VC2 - Name Change",31110,dentists
+3114,Veterinarians,"VC1 - Code Change, VC2 - Name Change",31103,veterinarians
+3121,Optometrists,"VC1 - Code Change, VC2 - Name Change",31111,optometrists
+3122,Chiropractors,"VC1 - Code Change, VC2 - Name Change",31201,chiropractors
+3131,Pharmacists,"VC1 - Code Change, VC2 - Name Change",31120,pharmacists
+3132,Dietitians and nutritionists,"VC1 - Code Change, VC2 - Name Change",31121,dietitians and nutritionists
+3141,Audiologists and speech-language pathologists,"VC1 - Code Change, VC2 - Name Change",31112,audiologists and speech-language pathologists
+3143,Occupational therapists,"VC1 - Code Change, VC2 - Name Change",31203,occupational therapists
+3211,Medical laboratory technologists,"VC1 - Code Change, VC2 - Name Change",32120,medical laboratory technologists
+3213,Animal health technologists and veterinary technicians,"VC1 - Code Change, VC2 - Name Change",32104,animal health technologists and veterinary technicians
+3214,"Respiratory therapists, clinical perfusionists and cardiopulmonary technologists","VC1 - Code Change, VC2 - Name Change",32103,"respiratory therapists, clinical perfusionists and cardiopulmonary technologists"
+3215,Medical radiation technologists,"VC1 - Code Change, VC2 - Name Change",32121,medical radiation technologists
+3216,Medical sonographers,"VC1 - Code Change, VC2 - Name Change",32122,medical sonographers
+3217,"Cardiology technologists and electrophysiological diagnostic technologists, n.e.c.","VC1 - Code Change, VC2 - Name Change",32123,cardiology technologists and electrophysiological diagnostic technologists
+3221,Denturists,"VC1 - Code Change, VC2 - Name Change",32110,denturists
+3222,Dental hygienists and dental therapists,"VC1 - Code Change, VC2 - Name Change",32111,dental hygienists and dental therapists
+3231,Opticians,"VC1 - Code Change, VC2 - Name Change",32100,opticians
+3233,Licensed practical nurses,"VC1 - Code Change, VC2 - Name Change",32101,licensed practical nurses
+3234,Paramedical occupations,"VC1 - Code Change, VC2 - Name Change",32102,paramedical occupations
+3236,Massage therapists,"VC1 - Code Change, VC2 - Name Change",32201,massage therapists
+3411,Dental assistants,"VC1 - Code Change, VC2 - Name Change",33100,dental assistants and dental laboratory assistants
+3413,"Nurse aides, orderlies and patient service associates","VC1 - Code Change, VC2 - Name Change",33102,"nurse aides, orderlies and patient service associates"
+4011,University professors and lecturers,"VC1 - Code Change, VC2 - Name Change",41200,university professors and lecturers
+4012,Post-secondary teaching and research assistants,"VC1 - Code Change, VC2 - Name Change",41201,post-secondary teaching and research assistants
+4021,College and other vocational instructors,"VC1 - Code Change, VC2 - Name Change",41210,college and other vocational instructors
+4031,Secondary school teachers,"VC1 - Code Change, VC2 - Name Change",41220,secondary school teachers
+4032,Elementary school and kindergarten teachers,"VC1 - Code Change, VC2 - Name Change",41221,elementary school and kindergarten teachers
+4033,Educational counsellors,"VC1 - Code Change, VC2 - Name Change",41320,educational counsellors
+4111,Judges,"VC1 - Code Change, VC2 - Name Change",41100,judges
+4112,Lawyers and Quebec notaries,"VC1 - Code Change, VC2 - Name Change",41101,lawyers and quebec notaries
+4152,Social workers,"VC1 - Code Change, VC2 - Name Change",41300,social workers
+4154,Professional occupations in religion,"VC1 - Code Change, VC2 - Name Change",41302,religious leaders
+4156,Employment counsellors,"VC1 - Code Change, VC2 - Name Change",41321,career development practitioners and career counsellors (except education)
+4161,"Natural and applied science policy researchers, consultants and program officers","VC1 - Code Change, VC2 - Name Change",41400,"natural and applied science policy researchers, consultants and program officers"
+4162,Economists and economic policy researchers and analysts,"VC1 - Code Change, VC2 - Name Change",41401,economists and economic policy researchers and analysts
+4164,"Social policy researchers, consultants and program officers","VC1 - Code Change, VC2 - Name Change",41403,"social policy researchers, consultants and program officers"
+4166,"Education policy researchers, consultants and program officers","VC1 - Code Change, VC2 - Name Change",41405,"education policy researchers, consultants and program officers"
+4167,"Recreation, sports and fitness policy researchers, consultants and program officers","VC1 - Code Change, VC2 - Name Change",41406,"recreation, sports and fitness policy researchers, consultants and program officers"
+4168,Program officers unique to government,"VC1 - Code Change, VC2 - Name Change",41407,program officers unique to government
+4169,"Other professional occupations in social science, n.e.c.","VC1 - Code Change, VC2 - Name Change",41409,other professional occupations in social science
+4211,Paralegal and related occupations,"VC1 - Code Change, VC2 - Name Change",42200,paralegals and related occupations
+4212,Social and community service workers,"VC1 - Code Change, VC2 - Name Change",42201,social and community service workers
+4214,Early childhood educators and assistants,"VC1 - Code Change, VC2 - Name Change",42202,early childhood educators and assistants
+4215,Instructors of persons with disabilities,"VC1 - Code Change, VC2 - Name Change",42203,instructors of persons with disabilities
+4216,Other instructors,"VC1 - Code Change, VC2 - Name Change",43109,other instructors
+4217,Other religious occupations,"VC1 - Code Change, VC2 - Name Change",42204,religion workers
+4312,Firefighters,"VC1 - Code Change, VC2 - Name Change",42101,firefighters
+4411,Home child care providers,"VC1 - Code Change, VC2 - Name Change",44100,home child care providers
+4421,Sheriffs and bailiffs,"VC1 - Code Change, VC2 - Name Change",43200,sheriffs and bailiffs
+4422,Correctional service officers,"VC1 - Code Change, VC2 - Name Change",43201,correctional service officers
+4423,"By-law enforcement and other regulatory officers, n.e.c.","VC1 - Code Change, VC2 - Name Change",43202,by-law enforcement and other regulatory officers
+5111,Librarians,"VC1 - Code Change, VC2 - Name Change",51100,librarians
+5112,Conservators and curators,"VC1 - Code Change, VC2 - Name Change",51101,conservators and curators
+5113,Archivists,"VC1 - Code Change, VC2 - Name Change",51102,archivists
+5122,Editors,"VC1 - Code Change, VC2 - Name Change",51110,editors
+5123,Journalists,"VC1 - Code Change, VC2 - Name Change",51113,journalists
+5125,"Translators, terminologists and interpreters","VC1 - Code Change, VC2 - Name Change",51114,"translators, terminologists and interpreters"
+5131,"Producers, directors, choreographers and related occupations","VC1 - Code Change, VC2 - Name Change",51120,"producers, directors, choreographers and related occupations"
+5132,"Conductors, composers and arrangers","VC1 - Code Change, VC2 - Name Change",51121,"conductors, composers and arrangers"
+5133,Musicians and singers,"VC1 - Code Change, VC2 - Name Change",51122,musicians and singers
+5134,Dancers,"VC1 - Code Change, VC2 - Name Change",53120,dancers
+5135,Actors and comedians,"VC1 - Code Change, VC2 - Name Change",53121,"actors, comedians and circus performers"
+5136,"Painters, sculptors and other visual artists","VC1 - Code Change, VC2 - Name Change",53122,"painters, sculptors and other visual artists"
+5211,Library and public archive technicians,"VC1 - Code Change, VC2 - Name Change",52100,library and public archive technicians
+5212,Technical occupations related to museums and art galleries,"VC1 - Code Change, VC2 - Name Change",53100,"registrars, restorers, interpreters and other occupations related to museum and art galleries"
+5221,Photographers,"VC1 - Code Change, VC2 - Name Change",53110,photographers
+5222,Film and video camera operators,"VC1 - Code Change, VC2 - Name Change",52110,film and video camera operators
+5223,Graphic arts technicians,"VC1 - Code Change, VC2 - Name Change",52111,graphic arts technicians
+5224,Broadcast technicians,"VC1 - Code Change, VC2 - Name Change",52112,broadcast technicians
+5225,Audio and video recording technicians,"VC1 - Code Change, VC2 - Name Change",52113,audio and video recording technicians
+5226,"Other technical and co-ordinating occupations in motion pictures, broadcasting and the performing arts","VC1 - Code Change, VC2 - Name Change",52119,"other technical and coordinating occupations in motion pictures, broadcasting and the performing arts"
+5227,"Support occupations in motion pictures, broadcasting, photography and the performing arts","VC1 - Code Change, VC2 - Name Change",53111,"motion pictures, broadcasting, photography and performing arts assistants and operators"
+5231,Announcers and other broadcasters,"VC1 - Code Change, VC2 - Name Change",52114,announcers and other broadcasters
+5241,Graphic designers and illustrators,"VC1 - Code Change, VC2 - Name Change",52120,graphic designers and illustrators
+5242,Interior designers and interior decorators,"VC1 - Code Change, VC2 - Name Change",52121,interior designers and interior decorators
+5244,Artisans and craftspersons,"VC1 - Code Change, VC2 - Name Change",53124,artisans and craftspersons
+5245,"Patternmakers - textile, leather and fur products","VC1 - Code Change, VC2 - Name Change",53125,"patternmakers - textile, leather and fur products"
+5251,Athletes,"VC1 - Code Change, VC2 - Name Change",53200,athletes
+5252,Coaches,"VC1 - Code Change, VC2 - Name Change",53201,coaches
+5253,Sports officials and referees,"VC1 - Code Change, VC2 - Name Change",53202,sports officials and referees
+5254,"Program leaders and instructors in recreation, sport and fitness","VC1 - Code Change, VC2 - Name Change",54100,"program leaders and instructors in recreation, sport and fitness"
+6211,Retail sales supervisors,"VC1 - Code Change, VC2 - Name Change",62010,retail sales supervisors
+6222,Retail and wholesale buyers,"VC1 - Code Change, VC2 - Name Change",62101,retail and wholesale buyers
+6231,Insurance agents and brokers,"VC1 - Code Change, VC2 - Name Change",63100,insurance agents and brokers
+6232,Real estate agents and salespersons,"VC1 - Code Change, VC2 - Name Change",63101,real estate agents and salespersons
+6235,Financial sales representatives,"VC1 - Code Change, VC2 - Name Change",63102,financial sales representatives
+6311,Food service supervisors,"VC1 - Code Change, VC2 - Name Change",62020,food service supervisors
+6312,Executive housekeepers,"VC1 - Code Change, VC2 - Name Change",62021,executive housekeepers
+6313,"Accommodation, travel, tourism and related services supervisors","VC1 - Code Change, VC2 - Name Change",62022,"accommodation, travel, tourism and related services supervisors"
+6314,Customer and information services supervisors,"VC1 - Code Change, VC2 - Name Change",62023,customer and information services supervisors
+6315,Cleaning supervisors,"VC1 - Code Change, VC2 - Name Change",62024,cleaning supervisors
+6321,Chefs,"VC1 - Code Change, VC2 - Name Change",62200,chefs
+6322,Cooks,"VC1 - Code Change, VC2 - Name Change",63200,cooks
+6331,"Butchers, meat cutters and fishmongers - retail and wholesale","RC4.1 - Breakdown, VC1 - Code Change, VC2 - Name Change",63201,butchers - retail and wholesale
+6332,Bakers,"VC1 - Code Change, VC2 - Name Change",63202,bakers
+6341,Hairstylists and barbers,"VC1 - Code Change, VC2 - Name Change",63210,hairstylists and barbers
+6342,"Tailors, dressmakers, furriers and milliners","VC1 - Code Change, VC2 - Name Change",64200,"tailors, dressmakers, furriers and milliners"
+6343,Shoe repairers and shoemakers,"VC1 - Code Change, VC2 - Name Change",63220,shoe repairers and shoemakers
+6344,"Jewellers, jewellery and watch repairers and related occupations","VC1 - Code Change, VC2 - Name Change",62202,"jewellers, jewellery and watch repairers and related occupations"
+6345,Upholsterers,"VC1 - Code Change, VC2 - Name Change",63221,upholsterers
+6346,Funeral directors and embalmers,"VC1 - Code Change, VC2 - Name Change",62201,funeral directors and embalmers
+6421,Retail salespersons,"VC1 - Code Change, VC2 - Name Change",64100,retail salespersons and visual merchandisers
+6511,Maîtres d'hôtel and hosts/hostesses,"VC1 - Code Change, VC2 - Name Change",64300,maîtres d'hôtel and hosts/hostesses
+6512,Bartenders,"VC1 - Code Change, VC2 - Name Change",64301,bartenders
+6513,Food and beverage servers,"VC1 - Code Change, VC2 - Name Change",65200,food and beverage servers
+6521,Travel counsellors,"VC1 - Code Change, VC2 - Name Change",64310,travel counsellors
+6522,Pursers and flight attendants,"VC1 - Code Change, VC2 - Name Change",64311,pursers and flight attendants
+6523,Airline ticket and service agents,"VC1 - Code Change, VC2 - Name Change",64312,airline ticket and service agents
+6524,"Ground and water transport ticket agents, cargo service representatives and related clerks","VC1 - Code Change, VC2 - Name Change",64313,"ground and water transport ticket agents, cargo service representatives and related clerks"
+6525,Hotel front desk clerks,"VC1 - Code Change, VC2 - Name Change",64314,hotel front desk clerks
+6531,Tour and travel guides,"VC1 - Code Change, VC2 - Name Change",64320,tour and travel guides
+6532,Outdoor sport and recreational guides,"VC1 - Code Change, VC2 - Name Change",64322,outdoor sport and recreational guides
+6533,Casino occupations,"VC1 - Code Change, VC2 - Name Change",64321,casino workers
+6551,Customer services representatives - financial institutions,"VC1 - Code Change, VC2 - Name Change",64400,customer services representatives - financial institutions
+6552,Other customer and information services representatives,"VC1 - Code Change, VC2 - Name Change",64409,other customer and information services representatives
+6561,"Image, social and other personal consultants","VC1 - Code Change, VC2 - Name Change",64201,"image, social and other personal consultants"
+6562,"Estheticians, electrologists and related occupations","VC1 - Code Change, VC2 - Name Change",63211,"estheticians, electrologists and related occupations"
+6563,Pet groomers and animal care workers,"VC1 - Code Change, VC2 - Name Change",65220,pet groomers and animal care workers
+6564,Other personal service occupations,"VC1 - Code Change, VC2 - Name Change",65229,other support occupations in personal services
+6611,Cashiers,"VC1 - Code Change, VC2 - Name Change",65100,cashiers
+6621,Service station attendants,"VC1 - Code Change, VC2 - Name Change",65101,service station attendants
+6622,"Store shelf stockers, clerks and order fillers","VC1 - Code Change, VC2 - Name Change",65102,"store shelf stockers, clerks and order fillers"
+6623,Other sales related occupations,"VC1 - Code Change, VC2 - Name Change",65109,other sales related occupations
+6711,"Food counter attendants, kitchen helpers and related support occupations","VC1 - Code Change, VC2 - Name Change",65201,"food counter attendants, kitchen helpers and related support occupations"
+6721,"Support occupations in accommodation, travel and facilities set-up services","VC1 - Code Change, VC2 - Name Change",65210,"support occupations in accommodation, travel and facilities set-up services"
+6722,"Operators and attendants in amusement, recreation and sport","VC1 - Code Change, VC2 - Name Change",65211,"operators and attendants in amusement, recreation and sport"
+6731,Light duty cleaners,"VC1 - Code Change, VC2 - Name Change",65310,light duty cleaners
+6732,Specialized cleaners,"VC1 - Code Change, VC2 - Name Change",65311,specialized cleaners
+6733,"Janitors, caretakers and building superintendents","RC4.1 - Breakdown, VC1 - Code Change, VC2 - Name Change",65312,"janitors, caretakers and heavy-duty cleaners"
+6741,"Dry cleaning, laundry and related occupations","VC1 - Code Change, VC2 - Name Change",65320,"dry cleaning, laundry and related occupations"
+6742,"Other service support occupations, n.e.c.","VC1 - Code Change, VC2 - Name Change",65329,other service support occupations
+7201,"Contractors and supervisors, machining, metal forming, shaping and erecting trades and related occupations","VC1 - Code Change, VC2 - Name Change",72010,"contractors and supervisors, machining, metal forming, shaping and erecting trades and related occupations"
+7202,"Contractors and supervisors, electrical trades and telecommunications occupations","VC1 - Code Change, VC2 - Name Change",72011,"contractors and supervisors, electrical trades and telecommunications occupations"
+7203,"Contractors and supervisors, pipefitting trades","VC1 - Code Change, VC2 - Name Change",72012,"contractors and supervisors, pipefitting trades"
+7204,"Contractors and supervisors, carpentry trades","VC1 - Code Change, VC2 - Name Change",72013,"contractors and supervisors, carpentry trades"
+7205,"Contractors and supervisors, other construction trades, installers, repairers and servicers","VC1 - Code Change, VC2 - Name Change",72014,"contractors and supervisors, other construction trades, installers, repairers and servicers"
+7231,Machinists and machining and tooling inspectors,"VC1 - Code Change, VC2 - Name Change",72100,machinists and machining and tooling inspectors
+7232,Tool and die makers,"VC1 - Code Change, VC2 - Name Change",72101,tool and die makers
+7233,Sheet metal workers,"VC1 - Code Change, VC2 - Name Change",72102,sheet metal workers
+7234,Boilermakers,"VC1 - Code Change, VC2 - Name Change",72103,boilermakers
+7235,Structural metal and platework fabricators and fitters,"VC1 - Code Change, VC2 - Name Change",72104,structural metal and platework fabricators and fitters
+7236,Ironworkers,"VC1 - Code Change, VC2 - Name Change",72105,ironworkers
+7237,Welders and related machine operators,"VC1 - Code Change, VC2 - Name Change",72106,welders and related machine operators
+7241,Electricians (except industrial and power system),"VC1 - Code Change, VC2 - Name Change",72200,electricians (except industrial and power system)
+7242,Industrial electricians,"VC1 - Code Change, VC2 - Name Change",72201,industrial electricians
+7243,Power system electricians,"VC1 - Code Change, VC2 - Name Change",72202,power system electricians
+7244,Electrical power line and cable workers,"VC1 - Code Change, VC2 - Name Change",72203,electrical power line and cable workers
+7245,Telecommunications line and cable workers,"RC3.2 - Take-over, VC1 - Code Change, VC2 - Name Change",72204,telecommunications line and cable installers and repairers
+7246,Telecommunications installation and repair workers,"RC3.2 - Take-over, VC1 - Code Change, VC2 - Name Change",72205,telecommunications equipment installation and cable television service technicians
+7247,Cable television service and maintenance technicians,"RC3.2 - Take-over, VC1 - Code Change, VC2 - Name Change",72204,telecommunications line and cable installers and repairers
+7251,Plumbers,"VC1 - Code Change, VC2 - Name Change",72300,plumbers
+7252,"Steamfitters, pipefitters and sprinkler system installers","VC1 - Code Change, VC2 - Name Change",72301,"steamfitters, pipefitters and sprinkler system installers"
+7253,Gas fitters,"VC1 - Code Change, VC2 - Name Change",72302,gas fitters
+7271,Carpenters,"VC1 - Code Change, VC2 - Name Change",72310,carpenters
+7272,Cabinetmakers,"VC1 - Code Change, VC2 - Name Change",72311,cabinetmakers
+7281,Bricklayers,"VC1 - Code Change, VC2 - Name Change",72320,bricklayers
+7282,Concrete finishers,"VC1 - Code Change, VC2 - Name Change",73100,concrete finishers
+7283,Tilesetters,"VC1 - Code Change, VC2 - Name Change",73101,tilesetters
+7284,"Plasterers, drywall installers and finishers and lathers","VC1 - Code Change, VC2 - Name Change",73102,"plasterers, drywall installers and finishers and lathers"
+7291,Roofers and shinglers,"VC1 - Code Change, VC2 - Name Change",73110,roofers and shinglers
+7292,Glaziers,"VC1 - Code Change, VC2 - Name Change",73111,glaziers
+7293,Insulators,"VC1 - Code Change, VC2 - Name Change",72321,insulators
+7294,Painters and decorators (except interior decorators),"VC1 - Code Change, VC2 - Name Change",73112,painters and decorators (except interior decorators)
+7295,Floor covering installers,"VC1 - Code Change, VC2 - Name Change",73113,floor covering installers
+7301,"Contractors and supervisors, mechanic trades","VC1 - Code Change, VC2 - Name Change",72020,"contractors and supervisors, mechanic trades"
+7302,"Contractors and supervisors, heavy equipment operator crews","VC1 - Code Change, VC2 - Name Change",72021,"contractors and supervisors, heavy equipment operator crews"
+7303,"Supervisors, printing and related occupations","VC1 - Code Change, VC2 - Name Change",72022,"supervisors, printing and related occupations"
+7304,"Supervisors, railway transport operations","VC1 - Code Change, VC2 - Name Change",72023,"supervisors, railway transport operations"
+7305,"Supervisors, motor transport and other ground transit operators","VC1 - Code Change, VC2 - Name Change",72024,"supervisors, motor transport and other ground transit operators"
+7311,Construction millwrights and industrial mechanics,"VC1 - Code Change, VC2 - Name Change",72400,construction millwrights and industrial mechanics
+7312,Heavy-duty equipment mechanics,"VC1 - Code Change, VC2 - Name Change",72401,heavy-duty equipment mechanics
+7313,"Heating, refrigeration and air conditioning mechanics","VC1 - Code Change, VC2 - Name Change",72402,"heating, refrigeration and air conditioning mechanics"
+7314,Railway carmen/women,"VC1 - Code Change, VC2 - Name Change",72403,railway carmen/women
+7315,Aircraft mechanics and aircraft inspectors,"VC1 - Code Change, VC2 - Name Change",72404,aircraft mechanics and aircraft inspectors
+7316,Machine fitters,"VC1 - Code Change, VC2 - Name Change",72405,machine fitters
+7318,Elevator constructors and mechanics,"VC1 - Code Change, VC2 - Name Change",72406,elevator constructors and mechanics
+7321,"Automotive service technicians, truck and bus mechanics and mechanical repairers","VC1 - Code Change, VC2 - Name Change",72410,"automotive service technicians, truck and bus mechanics and mechanical repairers"
+7322,Motor vehicle body repairers,"VC1 - Code Change, VC2 - Name Change",72411,"auto body collision, refinishing and glass technicians and damage repair estimators"
+7331,Oil and solid fuel heating mechanics,"VC1 - Code Change, VC2 - Name Change",72420,oil and solid fuel heating mechanics
+7332,Appliance servicers and repairers,"VC1 - Code Change, VC2 - Name Change",72421,appliance servicers and repairers
+7333,Electrical mechanics,"VC1 - Code Change, VC2 - Name Change",72422,electrical mechanics
+7334,"Motorcycle, all-terrain vehicle and other related mechanics","VC1 - Code Change, VC2 - Name Change",72423,"motorcycle, all-terrain vehicle and other related mechanics"
+7335,Other small engine and small equipment repairers,"VC1 - Code Change, VC2 - Name Change",72429,other small engine and small equipment repairers
+7361,Railway and yard locomotive engineers,"VC1 - Code Change, VC2 - Name Change",73310,railway and yard locomotive engineers
+7362,Railway conductors and brakemen/women,"VC1 - Code Change, VC2 - Name Change",73311,railway conductors and brakemen/women
+7372,"Drillers and blasters - surface mining, quarrying and construction","VC1 - Code Change, VC2 - Name Change",73402,"drillers and blasters - surface mining, quarrying and construction"
+7373,Water well drillers,"VC1 - Code Change, VC2 - Name Change",72501,water well drillers
+7381,Printing press operators,"VC1 - Code Change, VC2 - Name Change",73401,printing press operators
+7441,Residential and commercial installers and servicers,"VC1 - Code Change, VC2 - Name Change",73200,residential and commercial installers and servicers
+7442,Waterworks and gas maintenance workers,"VC1 - Code Change, VC2 - Name Change",74204,utility maintenance workers
+7444,Pest controllers and fumigators,"VC1 - Code Change, VC2 - Name Change",73202,pest controllers and fumigators
+7451,Longshore workers,"VC1 - Code Change, VC2 - Name Change",75100,longshore workers
+7452,Material handlers,"VC1 - Code Change, VC2 - Name Change",75101,material handlers
+7511,Transport truck drivers,"VC1 - Code Change, VC2 - Name Change",73300,transport truck drivers
+7512,"Bus drivers, subway operators and other transit operators","VC1 - Code Change, VC2 - Name Change",73301,"bus drivers, subway operators and other transit operators"
+7513,Taxi and limousine drivers and chauffeurs,"VC1 - Code Change, VC2 - Name Change",75200,taxi and limousine drivers and chauffeurs
+7521,Heavy equipment operators (except crane),"VC1 - Code Change, VC2 - Name Change",73400,heavy equipment operators
+7531,Railway yard and track maintenance workers,"VC1 - Code Change, VC2 - Name Change",74200,railway yard and track maintenance workers
+7532,Water transport deck and engine room crew,"VC1 - Code Change, VC2 - Name Change",74201,water transport deck and engine room crew
+7533,Boat and cable ferry operators and related occupations,"VC1 - Code Change, VC2 - Name Change",75210,boat and cable ferry operators and related occupations
+7534,Air transport ramp attendants,"VC1 - Code Change, VC2 - Name Change",74202,air transport ramp attendants
+7535,Other automotive mechanical installers and servicers,"VC1 - Code Change, VC2 - Name Change",74203,automotive and heavy truck and equipment parts installers and servicers
+7611,Construction trades helpers and labourers,"VC1 - Code Change, VC2 - Name Change",75110,construction trades helpers and labourers
+7612,Other trades helpers and labourers,"VC1 - Code Change, VC2 - Name Change",75119,other trades helpers and labourers
+7621,Public works and maintenance labourers,"VC1 - Code Change, VC2 - Name Change",75212,public works and maintenance labourers
+7622,Railway and motor transport labourers,"VC1 - Code Change, VC2 - Name Change",75211,railway and motor transport labourers
+8211,"Supervisors, logging and forestry","VC1 - Code Change, VC2 - Name Change",82010,"supervisors, logging and forestry"
+8221,"Supervisors, mining and quarrying","VC1 - Code Change, VC2 - Name Change",82020,"supervisors, mining and quarrying"
+8222,"Contractors and supervisors, oil and gas drilling and services","VC1 - Code Change, VC2 - Name Change",82021,"contractors and supervisors, oil and gas drilling and services"
+8231,Underground production and development miners,"VC1 - Code Change, VC2 - Name Change",83100,underground production and development miners
+8232,"Oil and gas well drillers, servicers, testers and related workers","VC1 - Code Change, VC2 - Name Change",83101,"oil and gas well drillers, servicers, testers and related workers"
+8241,Logging machinery operators,"VC1 - Code Change, VC2 - Name Change",83110,logging machinery operators
+8255,"Contractors and supervisors, landscaping, grounds maintenance and horticulture services","VC1 - Code Change, VC2 - Name Change",82031,"contractors and supervisors, landscaping, grounds maintenance and horticulture services"
+8261,Fishing masters and officers,"VC1 - Code Change, VC2 - Name Change",83120,fishing masters and officers
+8262,Fishermen/women,"VC1 - Code Change, VC2 - Name Change",83121,fishermen/women
+8411,Underground mine service and support workers,"VC1 - Code Change, VC2 - Name Change",84100,underground mine service and support workers
+8412,Oil and gas well drilling and related workers and services operators,"VC1 - Code Change, VC2 - Name Change",84101,oil and gas well drilling and related workers and services operators
+8421,Chain saw and skidder operators,"VC1 - Code Change, VC2 - Name Change",84110,chain saw and skidder operators
+8422,Silviculture and forestry workers,"VC1 - Code Change, VC2 - Name Change",84111,silviculture and forestry workers
+8432,Nursery and greenhouse workers,"VC1 - Code Change, VC2 - Name Change",85103,nursery and greenhouse labourers
+8441,Fishing vessel deckhands,"VC1 - Code Change, VC2 - Name Change",84121,fishing vessel deckhands
+8442,Trappers and hunters,"VC1 - Code Change, VC2 - Name Change",85104,trappers and hunters
+8611,Harvesting labourers,"VC1 - Code Change, VC2 - Name Change",85101,harvesting labourers
+8612,Landscaping and grounds maintenance labourers,"VC1 - Code Change, VC2 - Name Change",85121,landscaping and grounds maintenance labourers
+8613,Aquaculture and marine harvest labourers,"VC1 - Code Change, VC2 - Name Change",85102,aquaculture and marine harvest labourers
+8614,Mine labourers,"VC1 - Code Change, VC2 - Name Change",85110,mine labourers
+8615,"Oil and gas drilling, servicing and related labourers","VC1 - Code Change, VC2 - Name Change",85111,"oil and gas drilling, servicing and related labourers"
+8616,Logging and forestry labourers,"VC1 - Code Change, VC2 - Name Change",85120,logging and forestry labourers
+9211,"Supervisors, mineral and metal processing","VC1 - Code Change, VC2 - Name Change",92010,"supervisors, mineral and metal processing"
+9212,"Supervisors, petroleum, gas and chemical processing and utilities","VC1 - Code Change, VC2 - Name Change",92011,"supervisors, petroleum, gas and chemical processing and utilities"
+9213,"Supervisors, food and beverage processing","VC1 - Code Change, VC2 - Name Change",92012,"supervisors, food and beverage processing"
+9214,"Supervisors, plastic and rubber products manufacturing","VC1 - Code Change, VC2 - Name Change",92013,"supervisors, plastic and rubber products manufacturing"
+9215,"Supervisors, forest products processing","VC1 - Code Change, VC2 - Name Change",92014,"supervisors, forest products processing"
+9217,"Supervisors, textile, fabric, fur and leather products processing and manufacturing","VC1 - Code Change, VC2 - Name Change",92015,"supervisors, textile, fabric, fur and leather products processing and manufacturing"
+9221,"Supervisors, motor vehicle assembling","VC1 - Code Change, VC2 - Name Change",92020,"supervisors, motor vehicle assembling"
+9222,"Supervisors, electronics manufacturing","RC3.1 - Merger, VC2 - Name Change",92021,"supervisors, electronics and electrical products manufacturing"
+9223,"Supervisors, electrical products manufacturing","RC3.1 - Merger, VC2 - Name Change",92021,"supervisors, electronics and electrical products manufacturing"
+9224,"Supervisors, furniture and fixtures manufacturing","VC1 - Code Change, VC2 - Name Change",92022,"supervisors, furniture and fixtures manufacturing"
+9226,"Supervisors, other mechanical and metal products manufacturing","VC1 - Code Change, VC2 - Name Change",92023,"supervisors, other mechanical and metal products manufacturing"
+9227,"Supervisors, other products manufacturing and assembly","VC1 - Code Change, VC2 - Name Change",92024,"supervisors, other products manufacturing and assembly"
+9231,"Central control and process operators, mineral and metal processing","VC1 - Code Change, VC2 - Name Change",93100,"central control and process operators, mineral and metal processing"
+9232,"Central control and process operators, petroleum, gas and chemical processing","VC1 - Code Change, VC2 - Name Change",93101,"central control and process operators, petroleum, gas and chemical processing"
+9235,"Pulping, papermaking and coating control operators","VC1 - Code Change, VC2 - Name Change",93102,"pulping, papermaking and coating control operators"
+9241,Power engineers and power systems operators,"VC1 - Code Change, VC2 - Name Change",92100,power engineers and power systems operators
+9243,Water and waste treatment plant operators,"VC1 - Code Change, VC2 - Name Change",92101,water and waste treatment plant operators
+9411,"Machine operators, mineral and metal processing","VC1 - Code Change, VC2 - Name Change",94100,"machine operators, mineral and metal processing"
+9412,Foundry workers,"VC1 - Code Change, VC2 - Name Change",94101,foundry workers
+9413,Glass forming and finishing machine operators and glass cutters,"VC1 - Code Change, VC2 - Name Change",94102,glass forming and finishing machine operators and glass cutters
+9414,"Concrete, clay and stone forming operators","VC1 - Code Change, VC2 - Name Change",94103,"concrete, clay and stone forming operators"
+9415,"Inspectors and testers, mineral and metal processing","VC1 - Code Change, VC2 - Name Change",94104,"inspectors and testers, mineral and metal processing"
+9416,Metalworking and forging machine operators,"VC1 - Code Change, VC2 - Name Change",94105,metalworking and forging machine operators
+9417,Machining tool operators,"VC1 - Code Change, VC2 - Name Change",94106,machining tool operators
+9418,Other metal products machine operators,"VC1 - Code Change, VC2 - Name Change",94107,machine operators of other metal products
+9422,Plastics processing machine operators,"VC1 - Code Change, VC2 - Name Change",94111,plastics processing machine operators
+9423,Rubber processing machine operators and related workers,"VC1 - Code Change, VC2 - Name Change",94112,rubber processing machine operators and related workers
+9431,Sawmill machine operators,"VC1 - Code Change, VC2 - Name Change",94120,sawmill machine operators
+9432,Pulp mill machine operators,"RC3.1 - Merger, VC2 - Name Change",94121,"pulp mill, papermaking and finishing machine operators"
+9433,Papermaking and finishing machine operators,"RC3.1 - Merger, VC2 - Name Change",94121,"pulp mill, papermaking and finishing machine operators"
+9434,Other wood processing machine operators,"VC1 - Code Change, VC2 - Name Change",94129,other wood processing machine operators
+9435,Paper converting machine operators,"VC1 - Code Change, VC2 - Name Change",94122,paper converting machine operators
+9436,Lumber graders and other wood processing inspectors and graders,"VC1 - Code Change, VC2 - Name Change",94123,lumber graders and other wood processing inspectors and graders
+9437,Woodworking machine operators,"VC1 - Code Change, VC2 - Name Change",94124,woodworking machine operators
+9442,"Weavers, knitters and other fabric making occupations","VC1 - Code Change, VC2 - Name Change",94131,"weavers, knitters and other fabric making occupations"
+9445,"Fabric, fur and leather cutters","RC3.1 - Merger, VC1 - Code Change, VC2 - Name Change",95105,labourers in textile processing and cutting
+9446,Industrial sewing machine operators,"VC1 - Code Change, VC2 - Name Change",94132,industrial sewing machine operators
+9447,"Inspectors and graders, textile, fabric, fur and leather products manufacturing","VC1 - Code Change, VC2 - Name Change",94133,"inspectors and graders, textile, fabric, fur and leather products manufacturing"
+9461,"Process control and machine operators, food and beverage processing","VC1 - Code Change, VC2 - Name Change",94140,"process control and machine operators, food and beverage processing"
+9462,"Industrial butchers and meat cutters, poultry preparers and related workers","VC1 - Code Change, VC2 - Name Change",94141,"industrial butchers and meat cutters, poultry preparers and related workers"
+9463,Fish and seafood plant workers,"VC1 - Code Change, VC2 - Name Change",94142,fish and seafood plant workers
+9465,"Testers and graders, food and beverage processing","VC1 - Code Change, VC2 - Name Change",94143,"testers and graders, food and beverage processing"
+9471,Plateless printing equipment operators,"VC1 - Code Change, VC2 - Name Change",94150,plateless printing equipment operators
+9472,"Camera, platemaking and other prepress occupations","VC1 - Code Change, VC2 - Name Change",94151,"camera, platemaking and other prepress occupations"
+9473,Binding and finishing machine operators,"VC1 - Code Change, VC2 - Name Change",94152,binding and finishing machine operators
+9474,Photographic and film processors,"VC1 - Code Change, VC2 - Name Change",94153,photographic and film processors
+9521,Aircraft assemblers and aircraft assembly inspectors,"VC1 - Code Change, VC2 - Name Change",93200,aircraft assemblers and aircraft assembly inspectors
+9522,"Motor vehicle assemblers, inspectors and testers","VC1 - Code Change, VC2 - Name Change",94200,"motor vehicle assemblers, inspectors and testers"
+9523,"Electronics assemblers, fabricators, inspectors and testers","VC1 - Code Change, VC2 - Name Change",94201,"electronics assemblers, fabricators, inspectors and testers"
+9524,"Assemblers and inspectors, electrical appliance, apparatus and equipment manufacturing","VC1 - Code Change, VC2 - Name Change",94202,"assemblers and inspectors, electrical appliance, apparatus and equipment manufacturing"
+9525,"Assemblers, fabricators and inspectors, industrial electrical motors and transformers","VC1 - Code Change, VC2 - Name Change",94203,"assemblers, fabricators and inspectors, industrial electrical motors and transformers"
+9526,Mechanical assemblers and inspectors,"VC1 - Code Change, VC2 - Name Change",94204,mechanical assemblers and inspectors
+9527,"Machine operators and inspectors, electrical apparatus manufacturing","VC1 - Code Change, VC2 - Name Change",94205,"machine operators and inspectors, electrical apparatus manufacturing"
+9531,Boat assemblers and inspectors,"RC3.2 - Take-over, VC1 - Code Change, VC2 - Name Change",94219,"other products assemblers, finishers and inspectors"
+9532,Furniture and fixture assemblers and inspectors,"RC3.1 - Merger, VC1 - Code Change, VC2 - Name Change",94210,"furniture and fixture assemblers, finishers, refinishers and inspectors"
+9533,Other wood products assemblers and inspectors,"VC1 - Code Change, VC2 - Name Change",94211,assemblers and inspectors of other wood products
+9534,Furniture finishers and refinishers,"RC3.1 - Merger, VC1 - Code Change, VC2 - Name Change",94210,"furniture and fixture assemblers, finishers, refinishers and inspectors"
+9535,"Plastic products assemblers, finishers and inspectors","VC1 - Code Change, VC2 - Name Change",94212,"plastic products assemblers, finishers and inspectors"
+9536,"Industrial painters, coaters and metal finishing process operators","VC1 - Code Change, VC2 - Name Change",94213,"industrial painters, coaters and metal finishing process operators"
+9537,"Other products assemblers, finishers and inspectors","RC3.2 - Take-over, VC1 - Code Change, VC2 - Name Change",94219,"other products assemblers, finishers and inspectors"
+9611,Labourers in mineral and metal processing,"VC1 - Code Change, VC2 - Name Change",95100,labourers in mineral and metal processing
+9612,Labourers in metal fabrication,"VC1 - Code Change, VC2 - Name Change",95101,labourers in metal fabrication
+9613,Labourers in chemical products processing and utilities,"VC1 - Code Change, VC2 - Name Change",95102,labourers in chemical products processing and utilities
+9614,"Labourers in wood, pulp and paper processing","VC1 - Code Change, VC2 - Name Change",95103,"labourers in wood, pulp and paper processing"
+9615,Labourers in rubber and plastic products manufacturing,"VC1 - Code Change, VC2 - Name Change",95104,labourers in rubber and plastic products manufacturing
+9617,Labourers in food and beverage processing,"VC1 - Code Change, VC2 - Name Change",95106,labourers in food and beverage processing
+9619,"Other labourers in processing, manufacturing and utilities","VC1 - Code Change, VC2 - Name Change",95109,"other labourers in processing, manufacturing and utilities"
+0112,Human resources managers,,10011,human resources managers
+0431,Commissioned police officers,,40040,commissioned police officers and related occupations in public protection services
+0433,Commissioned officers of the Canadian Armed Forces,,40042,commissioned officers of the canadian armed forces
+1114,Other financial officers,,11109,other financial officers
+1123,"Professional occupations in advertising, marketing and public relations",,11202,"professional occupations in advertising, marketing and public relations"
+1215,"Supervisors, supply chain, tracking and scheduling co-ordination occupations",,12013,"supervisors, supply chain, tracking and scheduling coordination occupations"
+1227,Court officers and justices of the peace,,14103,court clerks and related court services occupations
+1253,Records management technicians,,12112,records management technicians
+1511,"Mail, postal and related workers",,74100,mail and parcel sorters and related occupations
+1513,"Couriers, messengers and door-to-door distributors",,75201,delivery service drivers and door-to-door distributors
+1525,Dispatchers,,14404,dispatchers
+2171,Information systems analysts and consultants,,21211,data scientists
+2172,Database analysts and data administrators,,21223,database analysts and data administrators
+2173,Software engineers and designers,,21231,software engineers and designers
+3124,Allied primary health practitioners,,31302,nurse practitioners
+3125,Other professional occupations in health diagnosing and treating,,31209,other professional occupations in health diagnosing and treating
+3142,Physiotherapists,,31202,physiotherapists
+3144,Other professional occupations in therapy and assessment,,31204,kinesiologists and other professional occupations in therapy and assessment
+3212,Medical laboratory technicians and pathologists' assistants,,33101,medical laboratory assistants and related technical occupations
+3219,Other medical technologists and technicians (except dental health),,32129,other medical technologists and technicians
+3223,"Dental technologists, technicians and laboratory assistants",,32112,dental technologists and technicians
+3232,Practitioners of natural healing,,32209,other practitioners of natural healing
+3237,Other technical occupations in therapy and assessment,,32109,other technical occupations in therapy and assessment
+3414,Other assisting occupations in support of health services,,33109,other assisting occupations in support of health services
+4151,Psychologists,,31200,psychologists
+4153,"Family, marriage and other related counsellors",,41301,therapists in counselling and related specialized therapies
+4155,Probation and parole officers and related occupations,,41311,probation and parole officers
+4163,Business development officers and marketing researchers and consultants,,41402,business development officers and market researchers and analysts
+4165,"Health policy researchers, consultants and program officers",,41404,"health policy researchers, consultants and program officers"
+4311,Police officers (except commissioned),,42100,police officers (except commissioned)
+4313,Non-commissioned ranks of the Canadian Armed Forces,,42100,police officers (except commissioned)
+4412,"Home support workers, housekeepers and related occupations",,44101,"home support workers, caregivers and related occupations"
+4413,Elementary and secondary school teacher assistants,,43100,elementary and secondary school teacher assistants
+5121,Authors and writers,,51111,authors and writers (except technical)
+5232,"Other performers, n.e.c.",,55109,other performers
+5243,"Theatre, fashion, exhibit and other creative designers",,53123,"theatre, fashion, exhibit and other creative designers"
+6221,Technical sales specialists - wholesale trade,,62100,technical sales specialists - wholesale trade
+6316,Other services supervisors,,62029,other services supervisors
+6411,Sales and account representatives - wholesale trade (non-technical),,64101,sales and account representatives - wholesale trade (non-technical)
+6541,Security guards and related security service occupations,,64410,security guards and related security service occupations
+7371,Crane operators,,72500,crane operators
+7384,"Other trades and related occupations, n.e.c.",,72999,other technical trades and related occupations
+7445,Other repairers and servicers,,73209,other repairers and servicers
+7514,Delivery and courier service drivers,,75201,delivery service drivers and door-to-door distributors
+7522,Public works maintenance equipment operators and related workers,,74205,public works maintenance equipment operators and related workers
+8252,"Agricultural service contractors, farm supervisors and specialized livestock workers",,82030,agricultural service contractors and farm supervisors
+8431,General farm workers,,84120,specialized livestock workers and farm machinery operators
+9421,Chemical plant machine operators,,94110,chemical plant machine operators
+9441,"Textile fibre and yarn, hide and pelt processing machine operators and workers",,94130,"textile fibre and yarn, hide and pelt processing machine operators and workers"
+9616,Labourers in textile processing,,95105,labourers in textile processing and cutting
+9618,Labourers in fish and seafood processing,,95107,labourers in fish and seafood processing
