@@ -1,2 +1,23 @@
 # WageCAN_Project
 Data-driven insights into wage disparities and economic patterns in Canada (2016–2024)
+
+**Project Goal**  
+WageCAN aims to analyze Canadian wage trends over time by integrating data from 2016, 2020, and 2024.  
+The project focuses on understanding occupational wage disparities, regional patterns, and the impact of evolving NOC classifications.
+
+---
+
+**Block 0: Data Preprocessing**
+This block processes raw Canadian wage datasets from 2016, 2020, and 2024, merges them, and maps occupational codes (NOC 2016 → NOC 2021). It generates the cleaned dataset merged_wages_2016_2024_mapped_to_NOC2021.csv for further analysis.
+
+**Key actions:**
+ - Read and inspect 2016, 2020, and 2024 datasets.
+ - Clean and normalize wage and occupation columns.
+ - Map NOC 2016 codes to NOC 2021 using a refined mapping file.
+ - Merge 2016, 2020, and 2024 wage data.
+ - Engineer new features: Broad Category, TEER Level, Major Group.
+ - Save cleaned output in `/output/csv/`.
+
+---
+
+   
