@@ -1,8 +1,8 @@
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-
 # WageCAN_Project
 Data-driven insights into wage disparities and economic patterns in Canada (2016–2024)
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/Python-3.11-blue)
 
 **Project Goal**  
 WageCAN aims to analyze Canadian wage trends over time by integrating data from 2016, 2020, and 2024.  
