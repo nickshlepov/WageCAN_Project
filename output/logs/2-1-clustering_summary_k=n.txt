@@ -1,0 +1,38 @@
+Summary Stats for Clusters (k=4) with Descriptive Labels:
+                                 Median_Wage_2016  Median_Wage_2020  Median_Wage_2024  TEER_Code
+Cluster_Label                                                                                   
+1 - Entry-Level & Low Wage                  17.27             19.03             21.94       4.02
+2 - Mid Wage, Mid Skill                     24.82             26.80             30.35       2.13
+3 - High Wage, High Skill                   34.45             37.69             42.62       1.37
+4 - Specialized / Outlier Roles             45.03             50.98             59.09       0.18
+
+=== k=4 Cluster Centroid Evaluation ===
+                    mean    std    max
+Label                                 
+1 - Very Low Wage  0.851  0.375  1.639
+2 - Low Wage       0.992  0.333  1.879
+3 - Mid Wage       1.140  0.399  2.106
+4 - High Wage      1.746  1.573  9.534
+================================================================================
+Summary Stats for Clusters (k=7) with Descriptive Labels:
+                                  Median_Wage_2016  Median_Wage_2020  Median_Wage_2024  TEER_Code
+Cluster_Label                                                                                    
+1 - Very Low Wage, Minimal Skill             14.89             16.86             19.71       4.27
+2 - Low Wage, Low Skill                      22.26             23.79             26.63       4.18
+3 - Low Wage, Mid Skill                      20.54             22.47             25.74       2.24
+4 - Mid Wage, Mid Skill                      27.25             29.41             33.01       2.16
+5 - High Wage, Mid Skill                     32.57             35.29             40.03       1.31
+6 - High Wage, High Skill                    38.61             42.88             49.27       0.98
+7 - Specialized / Outlier Roles              48.54             54.38             62.47       0.06
+
+=== k=7 Cluster Centroid Evaluation ===
+                                   mean    std    max
+Label                                                
+1 - Very Low Wage, Minimal Skill  0.532  0.214  1.049
+2 - Low Wage, Low Skill           0.525  0.321  1.939
+3 - Low Wage, Mid Skill           0.610  0.296  1.782
+4 - Mid Wage, Mid Skill           0.531  0.284  1.432
+5 - High Wage, Mid Skill          0.659  0.325  1.955
+6 - High Wage, High Skill         0.698  0.300  1.509
+7 - Specialized / Outlier Roles   0.850  0.565  2.685
+================================================================================

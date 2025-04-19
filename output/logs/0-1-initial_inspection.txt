@@ -1,0 +1,13 @@
+wages2016 shape: (43000, 17)
+wages2020 shape: (43000, 16)
+wages2024 shape: (44376, 21)
+
+wages2016 columns:
+['NOC_CNP', 'NOC_Title', 'Titre_CNP', 'PROV', 'ER_Code_Code_RE', 'ER_Name_Nom_RE', 'Low_Wage_Salaire_Minium', 'Median_Wage_Salaire_Median', 'High_Wage_Salaire_Maximal', 'Data_Source_E', 'Data_Source_F', 'Reference_Period', 'Revision_Date_Date_revision', 'Annual_Wage_Flag_Salaire_annuel', 'Wage_Comment_E', 'Wage_Comment_F', 'Annual_Wage']
+
+wages2020 columns:
+['NOC_CNP', 'NOC_Title', 'Titre_CNP', 'PROV', 'ER_Code_Code_RE', 'ER_Name_Nom_RE', 'Low_Wage_Salaire_Minium', 'Median_Wage_Salaire_Median', 'High_Wage_Salaire_Maximal', 'Data_Source_E', 'Data_Source_F', 'Reference_Period', 'Revision_Date_Date_revision', 'Annual_Wage_Flag_Salaire_annuel', 'Wage_Comment_E', 'Wage_Comment_F']
+
+wages2024 columns:
+['NOC_CNP', 'NOC_Title_eng', 'NOC_Title_fra', 'prov', 'ER_Code_Code_RE', 'ER_Name', 'Nom_RE', 'Low_Wage_Salaire_Minium', 'Median_Wage_Salaire_Median', 'High_Wage_Salaire_Maximal', 'Average_Wage_Salaire_Moyen', 'Quartile1_Wage_Salaire_Quartile1', 'Quartile3_Wage_Salaire_Quartile3', 'Data_Source_E', 'Data_Source_F', 'Reference_Period', 'Revision_Date_Date_revision', 'Annual_Wage_Flag_Salaire_annuel', 'Wage_Comment_E', 'Wage_Comment_F', 'Non_WageBen_pct']
+

@@ -1,0 +1,61 @@
+Summary Stats for Provincial Wage Clusters (k=4):
+                   Alberta  British Columbia  Manitoba  New Brunswick  Newfoundland and Labrador  Nova Scotia  Ontario  Prince Edward Island  Quebec  Saskatchewan  TEER_Code
+Cluster_Label_k4                                                                                                                                                             
+1 - Very Low Wage    22.37             23.14     20.58          20.44                      21.06        20.43    21.76                 21.21   22.09         21.49       3.65
+2 - Low Wage         32.53             32.54     30.13          29.17                      30.32        29.69    31.20                 30.44   31.49         31.41       2.37
+3 - Mid Wage         44.54             42.49     40.86          39.61                      41.30        39.91    42.39                 41.08   41.06         42.26       1.37
+4 - High Wage        56.58             56.16     54.54          54.07                      54.70        54.04    57.30                 55.88   55.95         56.62       0.49
+
+=== Provincial k=4 Cluster Centroid Evaluation ===
+                    mean    std    max
+Label                                 
+1 - Very Low Wage  0.851  0.375  1.639
+2 - Low Wage       0.992  0.333  1.879
+3 - Mid Wage       1.140  0.399  2.106
+4 - High Wage      1.746  1.573  9.534
+================================================================================
+
+Top 10 Distant NOCs from Cluster Centroids (Provincial Clustering k=4):
+ NOC_2021                                                                         NOC_Title_2021 Cluster_Label_k4  Avg_Wage  Min_Wage  Max_Wage         Min_Wage_Province Max_Wage_Province  Distance_to_Centroid_k4
+       12                senior managers - financial, communications and other business services    4 - High Wage     88.67     78.67     98.56 Newfoundland and Labrador  British Columbia                 9.533548
+    80010                                   managers in natural resources production and fishing    4 - High Wage     70.42     57.69     76.92          British Columbia      Saskatchewan                 4.406240
+    20010                                                                   engineering managers    4 - High Wage     66.29     64.42     67.31                   Ontario  British Columbia                 3.080492
+       11                                               senior government managers and officials    4 - High Wage     61.90     48.72     75.27             New Brunswick       Nova Scotia                 2.648385
+    40011 government managers - economic analysis, policy development and program administration    4 - High Wage     63.55     61.54     66.92             New Brunswick           Ontario                 2.297363
+    70020                                                             managers in transportation     3 - Mid Wage     47.52     38.46     57.44                  Manitoba  British Columbia                 2.106165
+    90010                                                                 manufacturing managers     3 - Mid Wage     48.09     41.89     53.85               Nova Scotia  British Columbia                 2.072158
+    21231                                                       software engineers and designers    4 - High Wage     50.89     38.46     60.10                  Manitoba  British Columbia                 2.045330
+    92100                                            power engineers and power systems operators     3 - Mid Wage     41.03     28.00     58.50      Prince Edward Island           Alberta                 2.037660
+    21320                                                                     chemical engineers    4 - High Wage     49.74     44.00     57.69                   Ontario           Alberta                 1.947846
+================================================================================
+Summary Stats for Clusters (Hierarchical) with Descriptive Labels:
+                                 Alberta  British Columbia  Manitoba  New Brunswick  Newfoundland and Labrador  Nova Scotia  Ontario  Prince Edward Island  Quebec  Saskatchewan
+Cluster_Label_Hierarchical                                                                                                                                                      
+1 - Very Low Wage                  20.25             21.35     18.68          18.72                      19.21        18.65    19.96                 19.35   20.33         19.45
+2 - Low Wage                       26.38             26.47     24.28          23.54                      24.40        23.64    25.32                 24.78   25.79         25.39
+3 - Mid Wage (Lower)               32.76             33.08     30.42          29.55                      30.71        30.14    31.48                 30.62   31.48         31.69
+4 - Mid Wage (Higher)              41.12             39.23     37.83          36.59                      38.47        37.21    39.29                 38.36   39.32         39.21
+5 - High Wage                      48.63             45.30     44.18          42.95                      44.37        42.94    45.45                 44.04   42.80         45.39
+6 - Very High Wage                 52.86             53.28     50.21          50.40                      51.29        49.39    53.48                 51.94   52.46         53.01
+7 - Specialized / Outlier Roles    67.61             65.93     67.26          64.36                      64.47        67.27    68.66                 67.66   66.25         67.67
+
+=== Hierarchical Cluster Centroid Evaluation ===
+                                  mean    std    max
+Label                                               
+1 - Very Low Wage                0.531  0.271  1.098
+2 - Low Wage                     0.402  0.188  1.033
+3 - Mid Wage (Lower)             0.670  0.331  1.577
+4 - Mid Wage (Higher)            0.533  0.225  1.042
+5 - High Wage                    0.571  0.294  1.417
+6 - Very High Wage               0.730  0.337  1.386
+7 - Specialized / Outlier Roles  1.841  1.872  6.255
+Cluster 7 is by far the most scattered cluster, likely includes edge cases or rare occupations
+================================================================================
+Top 5 Distant NOCs in Cluster 7 – Specialized / Outlier Roles:
+ NOC_2021                                                                        NOC_Title_2021  Avg_Wage  Min_Wage         Min_Wage_Province  Max_Wage Max_Wage_Province Distance_to_Centroid_7
+       12               senior managers - financial, communications and other business services     88.67     78.67 Newfoundland and Labrador     98.56  British Columbia               6.255147
+    40010 government managers - health and social policy development and program administration     59.23     58.97                   Alberta     61.54           Ontario                2.12125
+    20012                                             computer and information systems managers     61.39     55.29             New Brunswick     66.19           Alberta               1.542445
+       11                                              senior government managers and officials     61.90     48.72             New Brunswick     75.27       Nova Scotia               1.369595
+    21332                                                                   petroleum engineers     62.26     60.10 Newfoundland and Labrador     62.50           Alberta                 1.2601
+================================================================================

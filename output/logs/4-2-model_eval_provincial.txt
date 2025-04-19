@@ -1,0 +1,57 @@
+=== [Provincial] Linear Regression: TEER_Code → Median_Wage_2024 ===
+Intercept: 45.19
+Coefficient: -5.68
+RMSE: 7.49
+R² Score: 0.548
+Cross-validated R² (5-fold): Mean = 0.319, Std = 0.245
+================================================================================
+
+=== [Provincial] Random Forest Regression ===
+RMSE: 6.46
+R² Score: 0.641
+
+Top Features by Importance:
+TEER_Code                    0.722
+Broad_Category_Code_6        0.073
+Broad_Category_Code_8        0.021
+Broad_Category_Code_7        0.016
+Broad_Category_Code_4        0.016
+Broad_Category_Code_2        0.014
+Broad_Category_Code_3        0.013
+Province_British Columbia    0.012
+Province_New Brunswick       0.012
+Broad_Category_Code_9        0.012
+
+Cross-validated R² (5-fold): Mean = 0.397, Std = 0.125
+================================================================================
+
+=== [Provincial] Gradient Boosting Regression ===
+RMSE: 6.13
+R² Score: 0.677
+
+Top Features by Importance:
+TEER_Code                        0.826
+Broad_Category_Code_6            0.079
+Broad_Category_Code_8            0.016
+Broad_Category_Code_7            0.013
+Broad_Category_Code_2            0.011
+Province_New Brunswick           0.009
+Province_Nova Scotia             0.007
+Broad_Category_Code_5            0.007
+Province_Prince Edward Island    0.007
+Province_British Columbia        0.004
+
+Cross-validated R² (5-fold): Mean = 0.292, Std = 0.383
+================================================================================
+
+=== [Provincial] Embedding-Only RF Model ===
+Train RMSE: 3.08 | Train R²: 0.925
+Test  RMSE: 3.83 | Test  R²: 0.874
+Cross-validated R² (5-fold): Mean = -0.138, Std = 0.225
+================================================================================
+
+=== [Provincial] Final Combined Model: TEER + Broad + Province + Embedding ===
+Train RMSE: 2.99 | Train R²: 0.929
+Test  RMSE: 3.62 | Test  R²: 0.887
+Cross-validated R² (5-fold): Mean = 0.288, Std = 0.129
+================================================================================

@@ -1,0 +1,43 @@
+=== NATIONAL WAGE FLUCTUATION SUMMARY ===
+
+Wage Fluctuation Category Distribution Over Time:
+Wage_Fluctuation_Cluster  Year  NOC Count
+         Average, 50-75%  2016         89
+         Average, 50-75%  2020        139
+         Average, 50-75%  2024        189
+           High, 75-100%  2016        223
+           High, 75-100%  2020        218
+           High, 75-100%  2024        167
+          Low, under 50%  2016          8
+          Low, under 50%  2020         12
+          Low, under 50%  2024         29
+    Very High, over 100%  2016        129
+    Very High, over 100%  2020         80
+    Very High, over 100%  2024         64
+
+=== Top 10 NOCs with Highest Fluctuation (2024) ===
+ NOC_2021                                           NOC_Title  Year  rel_diff_high_low Wage_Fluctuation_Cluster
+    83120                        fishing masters and officers  2024           2.325714     Very High, over 100%
+    52114                   announcers and other broadcasters  2024           2.213172     Very High, over 100%
+    72601     air traffic controllers and related occupations  2024           1.836836     Very High, over 100%
+    83121                                     fishermen/women  2024           1.632762     Very High, over 100%
+    60020                 retail and wholesale trade managers  2024           1.502500     Very High, over 100%
+    11103   securities agents, investment dealers and brokers  2024           1.478801     Very High, over 100%
+    72600 air pilots, flight engineers and flying instructors  2024           1.429898     Very High, over 100%
+    53200                                            athletes  2024           1.415200     Very High, over 100%
+    84121                            fishing vessel deckhands  2024           1.382192     Very High, over 100%
+    13101                             property administrators  2024           1.355286     Very High, over 100%
+
+=== Bottom 10 NOCs with Lowest Fluctuation (2024) ===
+ NOC_2021                                                                NOC_Title  Year  rel_diff_high_low Wage_Fluctuation_Cluster
+    65100                                                                 cashiers  2024           0.225806           Low, under 50%
+    94142                                           fish and seafood plant workers  2024           0.264286           Low, under 50%
+    65101                                               service station attendants  2024           0.266667           Low, under 50%
+    95107                                 labourers in fish and seafood processing  2024           0.282407           Low, under 50%
+    72103                                                             boilermakers  2024           0.318723           Low, under 50%
+    94132                                      industrial sewing machine operators  2024           0.352941           Low, under 50%
+    74101                                                          letter carriers  2024           0.357143           Low, under 50%
+    32101                                                licensed practical nurses  2024           0.365837           Low, under 50%
+    65201 food counter attendants, kitchen helpers and related support occupations  2024           0.373125           Low, under 50%
+    65102                           store shelf stockers, clerks and order fillers  2024           0.378549           Low, under 50%
+================================================================================

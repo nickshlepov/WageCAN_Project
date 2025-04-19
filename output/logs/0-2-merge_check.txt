@@ -1,0 +1,11 @@
+=== Merge Check ===
+
+Unique provinces in 2016:
+{'National', 'Saskatchewan', 'Manitoba', 'Newfoundland and Labrador', 'Prince Edward Island', 'Nunavut', 'Yukon Territory', 'Québec', 'Ontario', 'New Brunswick', 'British Columbia', 'Alberta', 'Nova Scotia', 'Northwest Territories'}
+
+Unique provinces in 2020:
+{'National', 'Saskatchewan', 'Newfoundland and Labrador', 'Manitoba', 'Prince Edward Island', 'Quebec', 'Nunavut', 'Yukon Territory', 'Ontario', 'New Brunswick', 'British Columbia', 'Alberta', 'Nova Scotia', 'Northwest Territories'}
+
+Missing values in Province (2016): 0
+Missing values in Province (2020): 0
+Missing values in Province (2024): 0

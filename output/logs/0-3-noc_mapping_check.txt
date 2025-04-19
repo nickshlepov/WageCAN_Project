@@ -1,0 +1,2 @@
+Duplicated NOC_2016 entries: 0
+NOC_2016 mapped to multiple NOC_2021 (should be 0): 0

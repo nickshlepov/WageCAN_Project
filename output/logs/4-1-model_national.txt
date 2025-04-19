@@ -1,0 +1,59 @@
+=== Linear Regression Summary: TEER_Code factor Median_Wage_2024 ===
+Intercept: 46.83
+Coefficient: -5.90
+RMSE: 7.37
+R² Score: 0.564
+
+Cross-validated R² (5-fold): Mean = 0.305, Std = 0.177
+================================================================================
+
+=== Random Forest Regression ===
+RMSE (on full set): 5.70
+R² Score (on full set): 0.739
+Cross-validated R² (5-fold): Mean = 0.293, Std = 0.101
+
+Top Features by Importance:
+TEER_Code                0.789
+Broad_Category_Code_6    0.067
+Broad_Category_Code_5    0.029
+Broad_Category_Code_8    0.023
+Broad_Category_Code_2    0.022
+Broad_Category_Code_7    0.022
+Broad_Category_Code_9    0.018
+Broad_Category_Code_4    0.011
+Broad_Category_Code_3    0.010
+Broad_Category_Code_1    0.009
+================================================================================
+
+=== Gradient Boosting Regression ===
+RMSE (on full set): 5.84
+R² Score (on full set): 0.726
+Cross-validated R² (5-fold): Mean = 0.339, Std = 0.105
+
+Top Features by Importance:
+TEER_Code                0.853
+Broad_Category_Code_6    0.067
+Broad_Category_Code_5    0.028
+Broad_Category_Code_7    0.020
+Broad_Category_Code_2    0.013
+Broad_Category_Code_8    0.011
+Broad_Category_Code_9    0.002
+Broad_Category_Code_4    0.002
+Broad_Category_Code_1    0.002
+Broad_Category_Code_3    0.002
+================================================================================
+
+=== Embedding-Only Random Forest Model ===
+Test RMSE: 7.87
+Test R² Score: 0.532
+Cross-validated R² (5-fold): Mean = -0.086, Std = 0.197
+================================================================================
+
+=== Combined TEER + Broad Category + Embedding ===
+RMSE: 6.26
+R² Score: 0.704
+================================================================================
+
+=== National Level – 5-Fold CV ===
+Cross-validated R² (5-fold): Mean = 0.323, Std = 0.100
+================================================================================

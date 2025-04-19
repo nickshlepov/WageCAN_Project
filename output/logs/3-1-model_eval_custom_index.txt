@@ -1,0 +1,16 @@
+QUESTION: If I study a lot and pick the right industry, will I make decent money in wages?
+
+=== Linear Regression Summary: Custom Index (TEER × BOC Rank) factor Median_Wage_2024 ===
+R²: 0.589
+RMSE: 7.16
+Intercept: 49.02
+TEER coefficient: -5.18
+BOC rank coefficient: -0.77
+
+Cross-validated R² (5-fold): Mean = 0.280, Std = 0.173
+================================================================================
+
+ANSWER:
+Pretty much yes. TEER and BOC rank together explain a good portion of wage variation.
+Not perfect, but strong for just two factors.
+================================================================================

@@ -1,0 +1,44 @@
+National-level Median Wage Summary Statistics:
+       Median_Wage_2016  Median_Wage_2020  Median_Wage_2024
+count        449.000000        449.000000        449.000000
+mean          25.697305         28.140512         32.099220
+std            8.810910          9.763766         11.180312
+min           10.500000         13.500000         15.000000
+25%           19.000000         20.800000         23.500000
+50%           25.000000         26.360000         30.000000
+75%           31.250000         34.870000         38.560000
+max           53.330000         61.970000         92.310000
+================================================================================
+
+Median Wage 2024 by TEER Level (National):
+           count   mean  median
+TEER_Code                      
+0             37  52.01   53.33
+1             70  41.63   41.76
+2            149  32.75   32.31
+3             60  27.85   26.42
+4             91  23.56   22.00
+5             42  20.94   19.40
+
+Pearson Correlation (TEER vs. Median Wage 2024): -0.751
+Spearman Correlation (TEER vs. Median Wage 2024): -0.774
+================================================================================
+
+Median Wage 2024 by Broad Occupational Category (National):
+                     count   mean  median
+Broad_Category_Code                      
+0                        2  75.84   75.84
+1                       56  33.15   29.71
+2                       53  40.49   40.00
+3                       27  35.75   37.50
+4                       41  38.68   40.50
+5                       32  30.12   30.14
+6                       55  22.52   20.17
+7                       89  32.67   32.00
+8                       25  31.39   28.00
+9                       69  26.27   24.00
+
+Pearson Correlation (Broad Category vs. Median Wage 2024): -0.336
+Spearman Correlation (Broad Category vs. Median Wage 2024): -0.311
+================================================================================
+
