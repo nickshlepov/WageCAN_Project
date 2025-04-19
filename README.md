@@ -57,3 +57,7 @@ Builds regression models to predict 2024 wages based on occupation attributes an
 - Model wage growth stability by predicting 2024 wages from 2016 and 2020 data.
 - Visualize model performance (predicted vs actual wages).
 - Save model evaluation metrics and results to `/output/logs/` and `/output/figures/`
+
+# 📁 Project Structure
+WageCAN_Project/ ├── data/ # Raw and intermediate datasets (input files) ├── output/ │ ├── csv/ # Processed and analysis-ready datasets │ ├── figures/ # Charts, interactive plots, and model visualizations │ ├── logs/ # Summary logs, model evaluation reports ├── scripts/ # Main project scripts (Block 0, Block 1, Block 2, Block 3) ├── README.md # Project overview and documentation
+
