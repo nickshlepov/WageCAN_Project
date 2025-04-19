@@ -20,4 +20,16 @@ This block processes raw Canadian wage datasets from 2016, 2020, and 2024, merge
 
 ---
 
-   
+**Block 1: Exploratory Data Analysis (EDA)**
+This block explores wage patterns at national, provincial, and regional levels, identifies trends and outliers, and creates interactive visualizations.
+
+**Key actions:**
+- Analyze national wage distributions by year, TEER level, and Broad Category.
+- Compare provincial wages (Top 3 vs. Bottom 3 provinces).
+- Detect regional wage outliers in 2024.
+- Investigate wage fluctuation patterns within occupations.
+- Generate boxplots, heatmaps, summary tables, and Altair charts.
+- Save national_df.csv and provincial_df.csv for further analysis.
+
+---
+
