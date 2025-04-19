@@ -1,4 +1,4 @@
-# WageCAN_Project
+# WageCAN Project
 Data-driven insights into wage disparities and economic patterns in Canada (2016–2024)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
