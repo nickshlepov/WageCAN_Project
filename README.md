@@ -29,7 +29,19 @@ This block explores wage patterns at national, provincial, and regional levels, 
 - Detect regional wage outliers in 2024.
 - Investigate wage fluctuation patterns within occupations.
 - Generate boxplots, heatmaps, summary tables, and Altair charts.
-- Save national_df.csv and provincial_df.csv for further analysis.
+- Save `national_df.csv` and `provincial_df.csv` for further analysis.
 
 ---
 
+**Block 2: Clustering Analysis**
+This block applies clustering techniques to identify wage patterns among occupations and across provinces.
+
+**Key actions:**
+- Perform K-Means clustering (k=4 and k=7) on occupations using wages and TEER levels.
+- Conduct provincial wage clustering to detect NOCs with consistent vs. divergent wage patterns.
+- Apply hierarchical clustering on provincial wage profiles.
+- Identify occupation outliers within clusters.
+- Generate interactive PCA plots, heatmaps, and clustering summaries.
+- Save clustering results and outlier analyses in `/output/figures` and `/output/logs/`
+
+---
