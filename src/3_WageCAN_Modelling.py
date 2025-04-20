@@ -93,7 +93,7 @@ national_df_2024 = national_df[national_df["Median_Wage_2024"].notna()].copy()
 # Ensure CustomIndex is treated as string for correct plotting
 national_df_2024["CustomIndex"] = national_df_2024["CustomIndex"].astype(str)
 
-#### ======= 5-1-1 Median Wage by Custom Index (TEER × BOC Rank) — National 2024 =====
+#### ======= 3-1-1 Median Wage by Custom Index (TEER × BOC Rank) — National 2024 =====
 
 selection = alt.selection_point(fields=['Broad_Category_Short'], bind='legend')
 
@@ -122,11 +122,11 @@ custom_scatter = alt.Chart(national_df_2024).mark_circle(size=60).encode(
     labelAngle=0
 ).interactive()
 
-custom_scatter.save(Path(FIGURE_PATH) / "5-1-1-National-custom_index_scatter_2024.html")
+custom_scatter.save(Path(FIGURE_PATH) / "3-1-1-National-custom_index_scatter_2024.html")
 
 
 ### ==== BRIDGE INTO MODELLING: SIMPLE LINEAR REGRESSION ======
-### === 5-1-2-National-custom_index_regression_line =====
+### === 3-1-2-National-custom_index_regression_line =====
 
 # Convert TEER and BOC rank back to integers for modeling
 national_df_2024["TEER_Code"] = national_df_2024["TEER_Code"].astype(int)
@@ -190,7 +190,7 @@ final_chart = alt.layer(base_scatter, regression_line).configure_axisX(
 ).interactive()
 
 # Save
-final_chart.save(Path(FIGURE_PATH) / "5-1-2-National-custom_index_regression_line.html")
+final_chart.save(Path(FIGURE_PATH) / "3-1-2-National-custom_index_regression_line.html")
 
 
 #### QUESTION : If I study a lot and pick the right industry, will I make decent money in wages? =====
@@ -275,7 +275,7 @@ final_actual_pred_chart = (scatter_actual_pred + perfect_line_actual_pred).confi
 )
 
 # Save chart
-final_actual_pred_chart.save(Path(FIGURE_PATH) / "5-1-3-National-actual_vs_predicted_simple_linear.html")
+final_actual_pred_chart.save(Path(FIGURE_PATH) / "3-1-3-National-actual_vs_predicted_simple_linear.html")
 
 
 # Save answer/interpretation for custom index regression
@@ -304,7 +304,7 @@ r2 = r2_score(y, y_pred)
 cv_scores_baseline = cross_val_score(reg, X, y, cv=5, scoring='r2')
 
 # Save baseline linear regression summary (TEER → Wage)
-with open(Path(LOG_PATH) / "4-1-model_national.txt", "w", encoding="utf-8") as f:
+with open(Path(LOG_PATH) / "3-2-model_national.txt", "w", encoding="utf-8") as f:
     f.write("=== Linear Regression Summary: TEER_Code factor Median_Wage_2024 ===\n")
     f.write(f"Intercept: {reg.intercept_:.2f}\n")
     f.write(f"Coefficient: {reg.coef_[0]:.2f}\n")
@@ -338,7 +338,7 @@ cv_scores_rf = cross_val_score(rf, X, y, cv=5, scoring='r2')
 importances = pd.Series(rf.feature_importances_, index=X.columns)
 
 # Save Random Forest model summary (full fit + CV + feature importance)
-with open(Path(LOG_PATH) / "4-1-model_national.txt", "a", encoding="utf-8") as f:
+with open(Path(LOG_PATH) / "3-2-model_national.txt", "a", encoding="utf-8") as f:
     f.write("\n=== Random Forest Regression ===\n")
     f.write(f"RMSE (on full set): {rmse:.2f}\n")
     f.write(f"R² Score (on full set): {r2:.3f}\n")
@@ -368,7 +368,7 @@ cv_scores_gb = cross_val_score(gbr, X, y, cv=5, scoring='r2')
 importances = pd.Series(gbr.feature_importances_, index=X.columns)
 
 # Save Gradient Boosting model summary
-with open(Path(LOG_PATH) / "4-1-model_national.txt", "a", encoding="utf-8") as f:
+with open(Path(LOG_PATH) / "3-2-model_national.txt", "a", encoding="utf-8") as f:
     f.write("\n=== Gradient Boosting Regression ===\n")
     f.write(f"RMSE (on full set): {rmse:.2f}\n")
     f.write(f"R² Score (on full set): {r2:.3f}\n")
@@ -419,7 +419,7 @@ r2 = r2_score(y_test, y_pred)
 cv_scores_emb = cross_val_score(model_rf, X, y, cv=5, scoring='r2')
 
 # Save embedding-only model evaluation
-with open(Path(LOG_PATH) / "4-1-model_national.txt", "a", encoding="utf-8") as f:
+with open(Path(LOG_PATH) / "3-2-model_national.txt", "a", encoding="utf-8") as f:
     f.write("\n=== Embedding-Only Random Forest Model ===\n")
     f.write(f"Test RMSE: {rmse:.2f}\n")
     f.write(f"Test R² Score: {r2:.3f}\n")
@@ -473,7 +473,7 @@ y_pred = model.predict(X_test)
 rmse = mean_squared_error(y_test, y_pred) ** 0.5
 r2 = r2_score(y_test, y_pred)
 
-with open(Path(LOG_PATH) / "4-1-model_national.txt", "a", encoding="utf-8") as f:
+with open(Path(LOG_PATH) / "3-2-model_national.txt", "a", encoding="utf-8") as f:
     f.write("\n=== Combined TEER + Broad Category + Embedding ===\n")
     f.write(f"RMSE: {rmse:.2f}\n")
     f.write(f"R² Score: {r2:.3f}\n")
@@ -483,14 +483,14 @@ with open(Path(LOG_PATH) / "4-1-model_national.txt", "a", encoding="utf-8") as f
 rf = RandomForestRegressor(n_estimators=100, random_state=42)
 cv_scores_final = cross_val_score(rf, X, y, cv=5, scoring='r2')
 
-with open(Path(LOG_PATH) / "4-1-model_national.txt", "a", encoding="utf-8") as f:
+with open(Path(LOG_PATH) / "3-2-model_national.txt", "a", encoding="utf-8") as f:
     f.write("\n=== National Level – 5-Fold CV ===\n")
     f.write(f"Cross-validated R² (5-fold): Mean = {cv_scores_final.mean():.3f}, Std = {cv_scores_final.std():.3f}\n")
     f.write("=" * 80 + "\n")
 
 
 
-# === 6-1 National: Actual vs Predicted Median Wages (Random Forest: TEER + Broad Category + Embedding) ===
+# === 3-2 National: Actual vs Predicted Median Wages (Random Forest: TEER + Broad Category + Embedding) ===
 
 # Prepare DataFrame for Altair
 df_pred = df.loc[y_test.index].copy().reset_index(drop=True)
@@ -523,7 +523,7 @@ wage_min = min(df_pred['Actual_Wage_2024'].min(), df_pred['Predicted_Wage_2024']
 wage_max = max(df_pred['Actual_Wage_2024'].max(), df_pred['Predicted_Wage_2024'].max())
 
 # Altair scatter plot
-scatter_actual_pred_6_1 = alt.Chart(df_pred).mark_circle(size=70).encode(
+scatter_actual_pred_3_2 = alt.Chart(df_pred).mark_circle(size=70).encode(
     x=alt.X('Predicted_Wage_2024:Q', title='Predicted Median Wage 2024 ($)', scale=alt.Scale(domain=[wage_min, wage_max])),
     y=alt.Y('Actual_Wage_2024:Q', title='Actual Median Wage 2024 ($)', scale=alt.Scale(domain=[wage_min, wage_max])),
     color=alt.Color('Broad_Category_Short:N', title='Broad Occupational Category',
@@ -549,7 +549,7 @@ scatter_actual_pred_6_1 = alt.Chart(df_pred).mark_circle(size=70).encode(
 ).interactive()
 
 # Perfect prediction line
-perfect_line_6_1 = alt.Chart(pd.DataFrame({
+perfect_line_3_2 = alt.Chart(pd.DataFrame({
     'x': [wage_min, wage_max],
     'y': [wage_min, wage_max]
 })).mark_line(
@@ -561,7 +561,7 @@ perfect_line_6_1 = alt.Chart(pd.DataFrame({
 )
 
 # Combine scatter and perfect line
-final_chart_6_1 = (scatter_actual_pred_6_1 + perfect_line_6_1).configure_axis(
+final_chart_3_2 = (scatter_actual_pred_3_2 + perfect_line_3_2).configure_axis(
     labelFontSize=12,
     titleFontSize=14
 ).configure_title(
@@ -570,7 +570,7 @@ final_chart_6_1 = (scatter_actual_pred_6_1 + perfect_line_6_1).configure_axis(
 )
 
 # Save
-final_chart_6_1.save(Path(FIGURE_PATH) / "6-1-National-actual_vs_predicted_rf_embedding.html")
+final_chart_3_2.save(Path(FIGURE_PATH) / "3-2-National-actual_vs_predicted_rf_embedding.html")
 
 
 # Note:
@@ -596,7 +596,7 @@ rmse = np.sqrt(mean_squared_error(y, y_pred))
 r2 = r2_score(y, y_pred)
 cv_scores_prov_baseline = cross_val_score(reg, X, y, cv=5, scoring='r2')
 
-with open(Path(LOG_PATH) / "4-2-model_eval_provincial.txt", "w", encoding="utf-8") as f:
+with open(Path(LOG_PATH) / "3-3-model_eval_provincial.txt", "w", encoding="utf-8") as f:
     f.write("=== [Provincial] Linear Regression: TEER_Code → Median_Wage_2024 ===\n")
     f.write(f"Intercept: {reg.intercept_:.2f}\n")
     f.write(f"Coefficient: {reg.coef_[0]:.2f}\n")
@@ -627,7 +627,7 @@ r2 = r2_score(y_test, y_pred)
 importances = pd.Series(model_rf.feature_importances_, index=X.columns)
 cv_scores_prov_rf = cross_val_score(model_rf, X, y, cv=5, scoring='r2')
 
-with open(Path(LOG_PATH) / "4-2-model_eval_provincial.txt", "a", encoding="utf-8") as f:
+with open(Path(LOG_PATH) / "3-3-model_eval_provincial.txt", "a", encoding="utf-8") as f:
     f.write("\n=== [Provincial] Random Forest Regression ===\n")
     f.write(f"RMSE: {rmse:.2f}\n")
     f.write(f"R² Score: {r2:.3f}\n\n")
@@ -657,7 +657,7 @@ r2 = r2_score(y_test, y_pred)
 importances = pd.Series(gbr.feature_importances_, index=X.columns).sort_values(ascending=False)
 cv_scores_prov_gb = cross_val_score(gbr, X, y, cv=5, scoring='r2')
 
-with open(Path(LOG_PATH) / "4-2-model_eval_provincial.txt", "a", encoding="utf-8") as f:
+with open(Path(LOG_PATH) / "3-3-model_eval_provincial.txt", "a", encoding="utf-8") as f:
     f.write("\n=== [Provincial] Gradient Boosting Regression ===\n")
     f.write(f"RMSE: {rmse:.2f}\n")
     f.write(f"R² Score: {r2:.3f}\n\n")
@@ -703,7 +703,7 @@ train_r2 = r2_score(y_train, train_pred)
 # Cross-validation on full embedding model
 cv_scores_prov_emb = cross_val_score(rf_embed, X, y, cv=5, scoring='r2')
 
-with open(Path(LOG_PATH) / "4-2-model_eval_provincial.txt", "a", encoding="utf-8") as f:
+with open(Path(LOG_PATH) / "3-3-model_eval_provincial.txt", "a", encoding="utf-8") as f:
     f.write("\n=== [Provincial] Embedding-Only RF Model ===\n")
     f.write(f"Train RMSE: {train_rmse:.2f} | Train R²: {train_r2:.3f}\n")
     f.write(f"Test  RMSE: {rmse:.2f} | Test  R²: {r2:.3f}\n")
@@ -744,7 +744,7 @@ train_r2 = r2_score(y_train, train_pred)
 # Cross-validation on full dataset
 cv_scores_prov_final = cross_val_score(rf_final, X, y, cv=5, scoring='r2')
 
-with open(Path(LOG_PATH) / "4-2-model_eval_provincial.txt", "a", encoding="utf-8") as f:
+with open(Path(LOG_PATH) / "3-3-model_eval_provincial.txt", "a", encoding="utf-8") as f:
     f.write("\n=== [Provincial] Final Combined Model: TEER + Broad + Province + Embedding ===\n")
     f.write(f"Train RMSE: {train_rmse:.2f} | Train R²: {train_r2:.3f}\n")
     f.write(f"Test  RMSE: {rmse:.2f} | Test  R²: {r2:.3f}\n")
@@ -778,7 +778,7 @@ cv_summary_df = pd.DataFrame({
 }).sort_values(by="CV R² Mean", ascending=False).reset_index(drop=True)
 
 # Save summary of cross-validated scores
-with open(Path(LOG_PATH) / "4-3-model_eval_cv_summary.txt", "w", encoding="utf-8") as f:
+with open(Path(LOG_PATH) / "3-4-model_eval_cv_summary.txt", "w", encoding="utf-8") as f:
     f.write("\n=== Summary of Cross-Validated R² Scores ===\n")
     f.write(cv_summary_df.to_string(index=False))
     f.write("\nInterpretation:\n")
@@ -787,7 +787,7 @@ with open(Path(LOG_PATH) / "4-3-model_eval_cv_summary.txt", "w", encoding="utf-8
     f.write("\n" + "=" * 80 + "\n")
 
 
-# === 7-1 Model Comparison: Cross-Validated R² Scores (Bar Chart) ===
+# === 3-4 Model Comparison: Cross-Validated R² Scores (Bar Chart) ===
 
 # Colors from light to dark blue (like in TEER plot)
 colors = [
@@ -821,7 +821,7 @@ ax.set_axisbelow(True)
 
 # Tight layout and save
 plt.tight_layout()
-plt.savefig(Path(FIGURE_PATH) / "7-1-CV_Comparison_BarChart.png")
+plt.savefig(Path(FIGURE_PATH) / "3-4-CV_Comparison_BarChart.png")
 
 
 
@@ -865,7 +865,7 @@ for name, model in models.items():
     }
 
 # Save results
-with open(Path(LOG_PATH) / "5-1-wage_stability_prediction.txt", "w", encoding="utf-8") as f:
+with open(Path(LOG_PATH) / "3-5-wage_stability_prediction.txt", "w", encoding="utf-8") as f:
     f.write("=== Wage Stability Prediction Results (2016+2020 ➔ 2024) ===\n")
     for name, metrics in results.items():
         f.write(f"{name}:\n")
@@ -876,11 +876,31 @@ with open(Path(LOG_PATH) / "5-1-wage_stability_prediction.txt", "w", encoding="u
     f.write("=" * 80 + "\n")
 
 
-
+'''
 # Create DataFrame for visualization
 y_pred_gb = results["Gradient Boosting"]["y_pred"]
 gb_pred_vs_actual = wage_stability_df.copy()
 gb_pred_vs_actual['Predicted_Wage_2024'] = y_pred_gb
+'''
+
+# Prepare data
+X = wage_stability_df[['Median_Wage_2016', 'Median_Wage_2020']]
+y = wage_stability_df['Median_Wage_2024']
+
+# Train/test split
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42)
+
+# Fit Gradient Boosting on train
+gbr = GradientBoostingRegressor(random_state=42)
+gbr.fit(X_train, y_train)
+
+# Predict on test
+y_pred_test = gbr.predict(X_test)
+
+# Create dataframe for visualization (only test set)
+gb_pred_vs_actual = wage_stability_df.iloc[y_test.index].copy()
+gb_pred_vs_actual['Predicted_Wage_2024'] = y_pred_test
+
 
 # Create selection object (based on Broad_Category_Short)
 selection = alt.selection_point(fields=['Broad_Category_Short'], bind='legend')
@@ -903,9 +923,13 @@ scatter_plot = alt.Chart(gb_pred_vs_actual).mark_circle(size=70).encode(
 ).add_params(
     selection
 ).properties(
+    title={
+        "text": ["Gradient Boosting: Predicted Based on 2016-2020 Data vs Actual 2024 Wages"],
+      "subtitle": ["Test Data Only, 20% of dataset",
+                   ""]
+    },
     width=800,
-    height=800,
-    title='Gradient Boosting: Predicted Based on 2016-2020 Data vs Actual 2024 Wages'
+    height=800
 ).interactive()
 
 # Add ideal reference line (perfect prediction)
@@ -930,5 +954,5 @@ final_scatter = (scatter_plot + perfect_line).configure_axis(
 )
 
 # Save
-final_scatter.save(Path(FIGURE_PATH) / '7-2-Wage_Pattern_Stability_Predicted_vs_Actual_GB.html')
+final_scatter.save(Path(FIGURE_PATH) / '3-5-Wage_Pattern_Stability_Predicted_vs_Actual_GB.html')
 
