@@ -50,7 +50,7 @@ scaler = StandardScaler()
 X_scaled = scaler.fit_transform(features)
 
 
-### ===== 4-1-1 K-Means clustering (k=4) ==========
+### ===== 2-1-1 K-Means clustering (k=4) ==========
 
 kmeans_4 = KMeans(n_clusters=4, random_state=42, n_init=10)
 occupation_df['Cluster_k4'] = kmeans_4.fit_predict(X_scaled)
@@ -115,7 +115,7 @@ chart = alt.Chart(occupation_df).mark_circle(size=120, opacity=0.8).encode(
 ).interactive()
 
 # Save chart and print summary
-chart.save(Path(FIGURE_PATH) / "4-1-1-Occupation-clusters_k4_Altair.html")
+chart.save(Path(FIGURE_PATH) / "2-1-1-Occupation-clusters_k4_Altair.html")
 
 ## === k=4 evaluation ====
 
@@ -131,7 +131,7 @@ cluster_distance_stats_k4 = occupation_df.groupby('Cluster_k4')['Distance_to_Cen
 cluster_distance_stats_k4['Label'] = cluster_distance_stats_k4.index.map(label_mapping)
 cluster_distance_stats_k4.set_index('Label', inplace=True)
 
-#### ========4-1-2 K-Means clustering (k=7)===========
+#### ========2-1-2 K-Means clustering (k=7)===========
 
 kmeans_7 = KMeans(n_clusters=7, random_state=42, n_init=10)
 occupation_df['Cluster_k7'] = kmeans_7.fit_predict(X_scaled)
@@ -201,7 +201,7 @@ chart = alt.Chart(occupation_df).mark_circle(size=120, opacity=0.8).encode(
 ).interactive()
 
 # Save chart and print summary
-chart.save(Path(FIGURE_PATH) / "4-1-2-Occupation-clusters_k7_Altair.html")
+chart.save(Path(FIGURE_PATH) / "2-1-2-Occupation-clusters_k7_Altair.html")
 
 ## === k=7 evaluation ====
 # Get centroids
@@ -218,9 +218,10 @@ cluster_distance_stats_k7.set_index('Label', inplace=True)
 cluster_distance_stats_k7 = cluster_distance_stats_k7.loc[ordered_labels]
 
 
+
 ### ===== PROVINCIAL BASED K-MEAN =======
 
-# 4-2-1 Do wages for the same jobs vary significantly from Province to Province ?
+# 2-2-1 Do wages for the same jobs vary significantly from Province to Province ?
 # Filter to provincial-level data (no National or Territories)
 prov_df = merged_wages[
     (merged_wages['Province'] != 'National') &
@@ -320,9 +321,9 @@ chart = alt.Chart(df).mark_circle(size=120, opacity=0.8).encode(
     title='Occupation Clusters by National vs Provincial Wage Profiles (k=4) [Interactive Chart]'
 ).interactive()
 
-chart.save(Path(FIGURE_PATH) / "4-2-1-NOC-provincial-wage-variation_k4.html")
+chart.save(Path(FIGURE_PATH) / "2-2-1-NOC-provincial-wage-variation_k4.html")
 
-# ===== 4-2-1 Cluster Summary Stats (k=4) =====
+# ===== 2-2-1 Cluster Summary Stats (k=4) =====
 
 # Compute summary statistics (average wage and TEER per cluster)
 summary_stats_k4 = df.groupby('Cluster_Label_k4')[province_cols + ['TEER_Code']].mean().round(2)
@@ -336,7 +337,7 @@ ordered_labels_k4 = [
 ]
 summary_stats_k4 = summary_stats_k4.loc[ordered_labels_k4]
 
-# === 4-2-1 Cluster Centroid Evaluation (k=4) ===
+# === Cluster Centroid Evaluation (k=4) ===
 
 # Get centroids
 centroids_k4 = kmeans4.cluster_centers_
@@ -373,7 +374,7 @@ columns_to_view = [
 
 # ==== BIG QUESTION: WHERE DO HIGH-WAGE NOC CLUSTERS LIVE? =====
 
-### ===== 4-2-2 Average wage in each province by cluster ====
+### ===== 2-2-2 Average wage in each province by cluster ====
 
 # Make sure cluster labels exist
 cluster_wage_df = df.copy()
@@ -406,10 +407,10 @@ heatmap = alt.Chart(heatmap_data).mark_rect().encode(
 )
 
 # Save chart
-heatmap.save(Path(FIGURE_PATH) / "4-2-2-Province-heatmap_by_cluster_k4.html")
+heatmap.save(Path(FIGURE_PATH) / "2-2-2-Province-heatmap_by_cluster_k4.html")
 
 
-### ====== 4-2-3 NOCs per province/cluster=========
+### ====== 2-2-3 NOCs per province/cluster=========
 
 # Long-form (NOC, Province) wage records
 long_df = prov_df[['NOC_2021', 'Province', 'Median_Wage_2024']].copy()
@@ -456,10 +457,10 @@ normalized_heatmap = alt.Chart(cluster_counts).mark_rect().encode(
     title='Share of Occupations per Cluster by Province (k=4)'
 )
 
-normalized_heatmap.save(Path(FIGURE_PATH) / "4-2-3-Province-normalized_frequency_by_cluster_k4.html")
+normalized_heatmap.save(Path(FIGURE_PATH) / "2-2-3-Province-normalized_frequency_by_cluster_k4.html")
 
 
-##### ======= 4-2-4 Hierarchical Clustering ==========
+##### ======= 2-2-4 Hierarchical Clustering ==========
 
 # Use the same wage_matrix (already cleaned, pivoted, province columns only)
 wage_matrix = pivot_filled.dropna()
@@ -545,9 +546,9 @@ chart = alt.Chart(alt_df).mark_circle(size=120, opacity=0.85).encode(
     title='Occupations Clustered by Provincial Wage Patterns (Hierarchical Clustering) [Interactive]'
 ).interactive()
 
-chart.save(Path(FIGURE_PATH) / "4-2-4-Altair_Hierarchical_clusters_distance15.html")
+chart.save(Path(FIGURE_PATH) / "2-2-4-Altair_Hierarchical_clusters_distance15.html")
 
-# ===== 4-2-4 Cluster Summary Stats (Hierarchical) =====
+# ===== 2-2-4 Cluster Summary Stats (Hierarchical) =====
 
 # Compute summary statistics (average wage and TEER per cluster)
 summary_stats_hier = alt_df.groupby('Cluster_Label_Hierarchical')[province_cols].mean().round(2)
@@ -564,7 +565,7 @@ ordered_labels_hier = [
 ]
 summary_stats_hier = summary_stats_hier.loc[ordered_labels_hier]
 
-# === 4-2-4 Cluster Centroid Evaluation (Hierarchical) ===
+# === 2-2-4 Cluster Centroid Evaluation (Hierarchical) ===
 
 # Calculate cluster centroids in PCA space
 centroids_hier = alt_df.groupby('Cluster_Hierarchical')[['PCA1', 'PCA2']].mean().values

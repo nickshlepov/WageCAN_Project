@@ -444,7 +444,7 @@ for year in years:
 # Concatenate into a long-form DataFrame
 fluctuation_long_df = pd.concat(fluctuation_records, ignore_index=True)
 
-#### ==== 2-1 National wages fluctuation groups visualization =====
+#### ==== 1-4 National wages fluctuation groups visualization =====
 
 # Group and count
 cluster_counts = (
@@ -493,7 +493,7 @@ fluctuation_chart = fluctuation_chart.configure_title(
     labelAngle=45
 )
 
-fluctuation_chart.save(Path(FIGURE_PATH) / "2-1-National-wages-fluctuation-groups.html")
+fluctuation_chart.save(Path(FIGURE_PATH) / "1-4-National-wages-fluctuation-groups.html")
 
 # The increase in NOC codes falling into Low and Average fluctuation categories in 2024
 # may reflect greater wage stability within occupations.
@@ -539,7 +539,7 @@ with open(Path(LOG_PATH) / "1-3-eda_summary_fluctuation.txt", "w", encoding='utf
 # Low fluctuation and Very High fluctuation groups
 
 
-#### ========== 3-1-1 NATIONAL WAGES BY BOC FROM 2016 THROUGH 2020 TO 2024 - BARCHART ===========
+#### ========== 1-5-1 NATIONAL WAGES BY BOC FROM 2016 THROUGH 2020 TO 2024 - BARCHART ===========
 
 # Compute average median wages by Broad Occupational Category
 boc_growth_df = national_df.groupby('Broad_Category_Code')[
@@ -617,10 +617,10 @@ chart = alt.Chart(boc_melted).mark_bar().encode(
 )
 
 # Save chart
-chart.save(Path(FIGURE_PATH) / "3-1-1-National-median_wages_by_boc_grouped_bar.html")
+chart.save(Path(FIGURE_PATH) / "1-5-1-National-median_wages_by_boc_grouped_bar.html")
 
 
-#### ========== 3-1-2 WAGES HEATMAP, BROAD CATEGORY VS TEER  - NATIONAL ===========
+#### ========== 1-5-2 WAGES HEATMAP, BROAD CATEGORY VS TEER  - NATIONAL ===========
 # Group by Broad Category and TEER for each year, and compute average median wage
 avg_wages = national_df.groupby(['Broad_Category_Code', 'TEER_Code']).agg({
     'Median_Wage_2016': 'mean',
@@ -676,10 +676,10 @@ heatmap = alt.Chart(melted).mark_rect().encode(
     column=alt.Column('Year:O', title=None, header=alt.Header(labelFontSize=14))
 )
 
-heatmap.save(Path(FIGURE_PATH) / "3-1-2-National-heatmap_national_by_broad_teer.html")
+heatmap.save(Path(FIGURE_PATH) / "1-5-2-National-heatmap_national_by_broad_teer.html")
 
 
-### ===  3-1-3 KDE PLOT – NATIONAL WAGE DISTRIBUTION BY BROAD CATEGORY ====
+### ===  1-5-3 KDE PLOT – NATIONAL WAGE DISTRIBUTION BY BROAD CATEGORY ====
 kde_melted = national_df.melt(
     id_vars=['Broad_Category_Code', 'TEER_Code'],
     value_vars=['Median_Wage_2016', 'Median_Wage_2020', 'Median_Wage_2024'],
@@ -719,10 +719,10 @@ kde_chart = alt.Chart(kde_melted).transform_density(
     column=alt.Column('Year:O')
 ).add_params(selection)
 
-kde_chart.save(Path(FIGURE_PATH) / "3-1-3-National-kde_wage_distribution_by_category.html")
+kde_chart.save(Path(FIGURE_PATH) / "1-5-3-National-kde_wage_distribution_by_category.html")
 
 
-### ==== 3-2 WAGES HEATMAP BROAD CATEGORY VS TEER  - TOP3 AND BOTTOM 3 PROVINCES =====
+### ==== 1-6 WAGES HEATMAP BROAD CATEGORY VS TEER  - TOP3 AND BOTTOM 3 PROVINCES =====
 
 # Prepare data for heatmap
 def prepare_heatmap_data(sub_df):
@@ -804,7 +804,7 @@ bottom3_melted = prepare_heatmap_data(bottom3_df)
 combined_df = pd.concat([top3_melted, bottom3_melted])
 
 top3_bottom3_chart = build_heatmap(combined_df, "Top3 and Bottom3 Provinces - Wage Heatmap")
-top3_bottom3_chart.save(Path(FIGURE_PATH) / "3-2-Provincial-heatmap_top3_bottom3_provinces.html")
+top3_bottom3_chart.save(Path(FIGURE_PATH) / "1-6-Provincial-heatmap_top3_bottom3_provinces.html")
 
 
 # Save national_df and provincial_df to use in the future analysis
