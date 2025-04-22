@@ -19,6 +19,7 @@ from sklearn.cluster import KMeans
 
 # Ensure all necessary output directories exist
 Path("../output/figures").mkdir(parents=True, exist_ok=True)
+Path("../output/html_charts").mkdir(parents=True, exist_ok=True)
 Path("../output/logs").mkdir(parents=True, exist_ok=True)
 Path("../output/csv").mkdir(parents=True, exist_ok=True)
 Path("../data").mkdir(parents=True, exist_ok=True)
@@ -26,6 +27,7 @@ Path("../data").mkdir(parents=True, exist_ok=True)
 # Define paths
 DATA_PATH = '../data'
 FIGURE_PATH = '../output/figures'
+HTML_PATH = '../output/html_charts'
 LOG_PATH = '../output/logs'
 CSV_PATH = '../output/csv'
 
@@ -115,7 +117,7 @@ chart = alt.Chart(occupation_df).mark_circle(size=120, opacity=0.8).encode(
 ).interactive()
 
 # Save chart and print summary
-chart.save(Path(FIGURE_PATH) / "2-1-1-Occupation-clusters_k4_Altair.html")
+chart.save(Path(HTML_PATH) / "2-1-1-Occupation-clusters_k4_Altair.html")
 
 ## === k=4 evaluation ====
 
@@ -201,7 +203,7 @@ chart = alt.Chart(occupation_df).mark_circle(size=120, opacity=0.8).encode(
 ).interactive()
 
 # Save chart and print summary
-chart.save(Path(FIGURE_PATH) / "2-1-2-Occupation-clusters_k7_Altair.html")
+chart.save(Path(HTML_PATH) / "2-1-2-Occupation-clusters_k7_Altair.html")
 
 ## === k=7 evaluation ====
 # Get centroids
@@ -321,7 +323,7 @@ chart = alt.Chart(df).mark_circle(size=120, opacity=0.8).encode(
     title='Occupation Clusters by National vs Provincial Wage Profiles (k=4) [Interactive Chart]'
 ).interactive()
 
-chart.save(Path(FIGURE_PATH) / "2-2-1-NOC-provincial-wage-variation_k4.html")
+chart.save(Path(HTML_PATH) / "2-2-1-NOC-provincial-wage-variation_k4.html")
 
 # ===== 2-2-1 Cluster Summary Stats (k=4) =====
 
@@ -407,7 +409,7 @@ heatmap = alt.Chart(heatmap_data).mark_rect().encode(
 )
 
 # Save chart
-heatmap.save(Path(FIGURE_PATH) / "2-2-2-Province-heatmap_by_cluster_k4.html")
+heatmap.save(Path(HTML_PATH) / "2-2-2-Province-heatmap_by_cluster_k4.html")
 
 
 ### ====== 2-2-3 NOCs per province/cluster=========
@@ -457,7 +459,7 @@ normalized_heatmap = alt.Chart(cluster_counts).mark_rect().encode(
     title='Share of Occupations per Cluster by Province (k=4)'
 )
 
-normalized_heatmap.save(Path(FIGURE_PATH) / "2-2-3-Province-normalized_frequency_by_cluster_k4.html")
+normalized_heatmap.save(Path(HTML_PATH) / "2-2-3-Province-normalized_frequency_by_cluster_k4.html")
 
 
 ##### ======= 2-2-4 Hierarchical Clustering ==========
@@ -546,7 +548,7 @@ chart = alt.Chart(alt_df).mark_circle(size=120, opacity=0.85).encode(
     title='Occupations Clustered by Provincial Wage Patterns (Hierarchical Clustering) [Interactive]'
 ).interactive()
 
-chart.save(Path(FIGURE_PATH) / "2-2-4-Altair_Hierarchical_clusters_distance15.html")
+chart.save(Path(HTML_PATH) / "2-2-4-Altair_Hierarchical_clusters_distance15.html")
 
 # ===== 2-2-4 Cluster Summary Stats (Hierarchical) =====
 

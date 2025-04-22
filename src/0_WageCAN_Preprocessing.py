@@ -360,11 +360,10 @@ merged_wages = merged_wages.dropna(
     ]
 )
 
-
 # Log the number of records in the final merged dataset
 with open(Path(LOG_PATH) / "0-3-noc_mapping_check.txt", "a") as f:
     f.write(f"Final dataset contains: {len(merged_wages)} records\n")
-    
+
 # Save the final 2016-2024 dataset mapped from NOC_2016 to NOC_2021
 merged_wages.to_csv(Path(CSV_PATH) / "merged_wages_2016_2024_mapped_to_NOC2021.csv", index=False)
 print("=" * 80)

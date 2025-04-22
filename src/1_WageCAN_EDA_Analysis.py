@@ -20,6 +20,7 @@ from scipy.stats import pearsonr, spearmanr
 
 # Ensure all necessary output directories exist
 Path("../output/figures").mkdir(parents=True, exist_ok=True)
+Path("../output/html_charts").mkdir(parents=True, exist_ok=True)
 Path("../output/logs").mkdir(parents=True, exist_ok=True)
 Path("../output/csv").mkdir(parents=True, exist_ok=True)
 Path("../data").mkdir(parents=True, exist_ok=True)
@@ -27,6 +28,7 @@ Path("../data").mkdir(parents=True, exist_ok=True)
 # Define paths
 DATA_PATH = '../data'
 FIGURE_PATH = '../output/figures'
+HTML_PATH = '../output/html_charts'
 LOG_PATH = '../output/logs'
 CSV_PATH = '../output/csv'
 
@@ -493,7 +495,7 @@ fluctuation_chart = fluctuation_chart.configure_title(
     labelAngle=45
 )
 
-fluctuation_chart.save(Path(FIGURE_PATH) / "1-4-National-wages-fluctuation-groups.html")
+fluctuation_chart.save(Path(HTML_PATH) / "1-4-National-wages-fluctuation-groups.html")
 
 # The increase in NOC codes falling into Low and Average fluctuation categories in 2024
 # may reflect greater wage stability within occupations.
@@ -617,7 +619,7 @@ chart = alt.Chart(boc_melted).mark_bar().encode(
 )
 
 # Save chart
-chart.save(Path(FIGURE_PATH) / "1-5-1-National-median_wages_by_boc_grouped_bar.html")
+chart.save(Path(HTML_PATH) / "1-5-1-National-median_wages_by_boc_grouped_bar.html")
 
 
 #### ========== 1-5-2 WAGES HEATMAP, BROAD CATEGORY VS TEER  - NATIONAL ===========
@@ -672,11 +674,13 @@ heatmap = alt.Chart(melted).mark_rect().encode(
         alt.Tooltip('TEER_Level_Name:N', title='TEER Level'),
         alt.Tooltip('Median_Wage:Q', title='Median Wage ($)', format=',.0f')
     ]
-).properties(width=400, height=400).facet(
+).properties(width=400, height=400,
+             title='National Wages Heatmap, BOC vs. TEER'
+             ).facet(
     column=alt.Column('Year:O', title=None, header=alt.Header(labelFontSize=14))
 )
 
-heatmap.save(Path(FIGURE_PATH) / "1-5-2-National-heatmap_national_by_broad_teer.html")
+heatmap.save(Path(HTML_PATH) / "1-5-2-National-heatmap_national_by_broad_teer.html")
 
 
 ### ===  1-5-3 KDE PLOT – NATIONAL WAGE DISTRIBUTION BY BROAD CATEGORY ====
@@ -719,7 +723,7 @@ kde_chart = alt.Chart(kde_melted).transform_density(
     column=alt.Column('Year:O')
 ).add_params(selection)
 
-kde_chart.save(Path(FIGURE_PATH) / "1-5-3-National-kde_wage_distribution_by_category.html")
+kde_chart.save(Path(HTML_PATH) / "1-5-3-National-kde_wage_distribution_by_category.html")
 
 
 ### ==== 1-6 WAGES HEATMAP BROAD CATEGORY VS TEER  - TOP3 AND BOTTOM 3 PROVINCES =====
@@ -765,9 +769,13 @@ def build_heatmap(data, title):
             alt.Tooltip('Median_Wage:Q', title='Median Wage ($)', format=',.0f')
         ]
     ).properties(
-        width=200,
-        height=200,
-        title=title
+        width=250,
+        height=250,
+        title={
+            "text": ["Wages Heatmap, BOC vs. TEER"],
+            "subtitle": ["Bottom3 - Top3 Provinces",
+                         ""]
+        }
     ).facet(
         column=alt.Column('Province:N', title=None, sort=ordered_provinces),
         row=alt.Row('Year:O', title=None)
@@ -804,7 +812,7 @@ bottom3_melted = prepare_heatmap_data(bottom3_df)
 combined_df = pd.concat([top3_melted, bottom3_melted])
 
 top3_bottom3_chart = build_heatmap(combined_df, "Top3 and Bottom3 Provinces - Wage Heatmap")
-top3_bottom3_chart.save(Path(FIGURE_PATH) / "1-6-Provincial-heatmap_top3_bottom3_provinces.html")
+top3_bottom3_chart.save(Path(HTML_PATH) / "1-6-Provincial-heatmap_top3_bottom3_provinces.html")
 
 
 # Save national_df and provincial_df to use in the future analysis

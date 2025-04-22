@@ -23,6 +23,7 @@ from sentence_transformers import SentenceTransformer
 
 # Ensure all necessary output directories exist
 Path("../output/figures").mkdir(parents=True, exist_ok=True)
+Path("../output/html_charts").mkdir(parents=True, exist_ok=True)
 Path("../output/logs").mkdir(parents=True, exist_ok=True)
 Path("../output/csv").mkdir(parents=True, exist_ok=True)
 Path("../data").mkdir(parents=True, exist_ok=True)
@@ -30,6 +31,7 @@ Path("../data").mkdir(parents=True, exist_ok=True)
 # Define paths
 DATA_PATH = '../data'
 FIGURE_PATH = '../output/figures'
+HTML_PATH = '../output/html_charts'
 LOG_PATH = '../output/logs'
 CSV_PATH = '../output/csv'
 
@@ -98,7 +100,7 @@ national_df_2024["CustomIndex"] = national_df_2024["CustomIndex"].astype(str)
 selection = alt.selection_point(fields=['Broad_Category_Short'], bind='legend')
 
 # Build Altair scatter plot
-custom_scatter = alt.Chart(national_df_2024).mark_circle(size=60).encode(
+custom_scatter = alt.Chart(national_df_2024).mark_circle(size=80).encode(
     x=alt.X('CustomIndex:O', title='Custom Index (TEER - BOC Rank)'),
     y=alt.Y('Median_Wage_2024:Q', title='Median Wage ($)', scale=alt.Scale(zero=False)),
     color=alt.Color('Broad_Category_Short:N', title='Broad Occupational Category',
@@ -122,7 +124,7 @@ custom_scatter = alt.Chart(national_df_2024).mark_circle(size=60).encode(
     labelAngle=0
 ).interactive()
 
-custom_scatter.save(Path(FIGURE_PATH) / "3-1-1-National-custom_index_scatter_2024.html")
+custom_scatter.save(Path(HTML_PATH) / "3-1-1-National-custom_index_scatter_2024.html")
 
 
 ### ==== BRIDGE INTO MODELLING: SIMPLE LINEAR REGRESSION ======
@@ -151,7 +153,7 @@ prediction_grid["Index_Position"] = prediction_grid["TEER_Code"] * 10 + predicti
 national_df_2024["Index_Position"] = national_df_2024["TEER_Code"] * 10 + national_df_2024["BOC_Rank"]
 
 # Base scatter plot (keep CustomIndex for user readability)
-base_scatter = alt.Chart(national_df_2024).mark_circle(size=60).encode(
+base_scatter = alt.Chart(national_df_2024).mark_circle(size=80).encode(
     x=alt.X('CustomIndex:O', title='Custom Index (TEER - BOC Rank)',
             sort=sorted(national_df_2024['CustomIndex'].unique(),
                         key=lambda x: (int(x.split('-')[0]), int(x.split('-')[1])))),
@@ -190,7 +192,7 @@ final_chart = alt.layer(base_scatter, regression_line).configure_axisX(
 ).interactive()
 
 # Save
-final_chart.save(Path(FIGURE_PATH) / "3-1-2-National-custom_index_regression_line.html")
+final_chart.save(Path(HTML_PATH) / "3-1-2-National-custom_index_regression_line.html")
 
 
 #### QUESTION : If I study a lot and pick the right industry, will I make decent money in wages? =====
@@ -275,7 +277,7 @@ final_actual_pred_chart = (scatter_actual_pred + perfect_line_actual_pred).confi
 )
 
 # Save chart
-final_actual_pred_chart.save(Path(FIGURE_PATH) / "3-1-3-National-actual_vs_predicted_simple_linear.html")
+final_actual_pred_chart.save(Path(HTML_PATH) / "3-1-3-National-actual_vs_predicted_simple_linear.html")
 
 
 # Save answer/interpretation for custom index regression
@@ -570,7 +572,7 @@ final_chart_3_2 = (scatter_actual_pred_3_2 + perfect_line_3_2).configure_axis(
 )
 
 # Save
-final_chart_3_2.save(Path(FIGURE_PATH) / "3-2-National-actual_vs_predicted_rf_embedding.html")
+final_chart_3_2.save(Path(HTML_PATH) / "3-2-National-actual_vs_predicted_rf_embedding.html")
 
 
 # Note:
@@ -954,5 +956,5 @@ final_scatter = (scatter_plot + perfect_line).configure_axis(
 )
 
 # Save
-final_scatter.save(Path(FIGURE_PATH) / '3-5-Wage_Pattern_Stability_Predicted_vs_Actual_GB.html')
+final_scatter.save(Path(HTML_PATH) / '3-5-Wage_Pattern_Stability_Predicted_vs_Actual_GB.html')
 
