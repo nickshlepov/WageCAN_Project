@@ -79,3 +79,26 @@ WageCAN_Project/
 All outputs (figures, logs, reports) follow the block numbering system.
 For example, results from Block 2 are named 2-#, results from Block 3 are named 3-#, ensuring easy mapping between code, outputs, and documentation.
 
+## Selected Results Visualizations
+
+<p align="center">
+  <img src="output/figures/1-1-2-National-boxplot_TEER_vs_MedianWage2024.png" width="600">
+</p>
+
+<p align="center"><i>Figure 1. Median Wage in Canada in 2024 vs. TEER.</i></p>
+
+<br>
+
+<p align="center">
+  <img src="output/figures/1-5-2-National-heatmap_national_by_broad_teer.png" width="600">
+</p>
+
+<p align="center"><i>Figure 2. National Wages Heatmap, BOC vs. TEER.</i></p>
+
+<br>
+
+<p align="center">
+  <img src="output/figures/3-1-3-National-actual_vs_predicted_simple_linear.png" width="600">
+</p>
+
+<p align="center"><i>Figure 3. National Actual Wages vs. Predicted by the CustomIndex.</i></p>
