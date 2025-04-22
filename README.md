@@ -80,8 +80,8 @@ All outputs (figures, logs, reports) follow the block numbering system.
 For example, results from Block 2 are named 2-#, results from Block 3 are named 3-#, ensuring easy mapping between code, outputs, and documentation.
 
 
-**Selected Interactive WageCAN charts are available here:**  
 
+**Selected Interactive WageCAN charts are available here:**  
 🔗 [WageCAN Interactive Visualizations](https://nickshlepov.github.io/WageCAN_Project/)
 
 
