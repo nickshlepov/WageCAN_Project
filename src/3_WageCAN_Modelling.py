@@ -231,7 +231,7 @@ actual_vs_pred_df['Predicted_Median_Wage_2024'] = y_pred
 selection = alt.selection_point(fields=['Broad_Category_Short'], bind='legend')
 
 # Altair scatter plot
-scatter_actual_pred = alt.Chart(actual_vs_pred_df).mark_circle(size=70).encode(
+scatter_actual_pred = alt.Chart(actual_vs_pred_df).mark_circle(size=120).encode(
     x = alt.X('Predicted_Median_Wage_2024:Q', title='Predicted Median Wage 2024 ($)'),
     y = alt.Y('Median_Wage_2024:Q', title='Actual Median Wage 2024 ($)'),
     color=alt.Color('Broad_Category_Short:N', title='Broad Occupational Category',
@@ -523,7 +523,7 @@ wage_min = min(df_pred['Actual_Wage_2024'].min(), df_pred['Predicted_Wage_2024']
 wage_max = max(df_pred['Actual_Wage_2024'].max(), df_pred['Predicted_Wage_2024'].max())
 
 # Altair scatter plot
-scatter_actual_pred_3_2 = alt.Chart(df_pred).mark_circle(size=70).encode(
+scatter_actual_pred_3_2 = alt.Chart(df_pred).mark_circle(size=120).encode(
     x=alt.X('Predicted_Wage_2024:Q', title='Predicted Median Wage 2024 ($)', scale=alt.Scale(domain=[wage_min, wage_max])),
     y=alt.Y('Actual_Wage_2024:Q', title='Actual Median Wage 2024 ($)', scale=alt.Scale(domain=[wage_min, wage_max])),
     color=alt.Color('Broad_Category_Short:N', title='Broad Occupational Category',
@@ -906,7 +906,7 @@ gb_pred_vs_actual['Predicted_Wage_2024'] = y_pred_test
 selection = alt.selection_point(fields=['Broad_Category_Short'], bind='legend')
 
 # Altair scatter plot
-scatter_plot = alt.Chart(gb_pred_vs_actual).mark_circle(size=70).encode(
+scatter_plot = alt.Chart(gb_pred_vs_actual).mark_circle(size=120).encode(
     x=alt.X('Predicted_Wage_2024:Q', title='Predicted Median Wage 2024 ($)'),
     y=alt.Y('Median_Wage_2024:Q', title='Actual Median Wage 2024 ($)'),
     color=alt.Color('Broad_Category_Short:N', title='Broad Occupational Category',
